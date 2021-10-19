@@ -6,9 +6,11 @@ import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
 
 import PageTitleHome from '../blocks/page-title/PageTitleHome';
+import About from './About';
 import Works from '../blocks/works/Works';
 import Journal from '../blocks/blog/Blog';
 import Contacts from '../blocks/contacts/Contacts';
+// import AboutBlock from '../blocks/about-block/AboutBlock';
 
 const Home = () => {
     document.body.classList.add( 'home' );
@@ -19,7 +21,7 @@ const Home = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>Home | Oxer - Minimal Portfolio React Template</title>
+                <title>Home | Noemie Grau - Official Portfolio Website</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -37,6 +39,9 @@ const Home = () => {
 
             <main id="main" className="site-main">
                 <PageTitleHome />
+
+                {/* <AboutBlock /> */}
+                <About />
 
                 <Works />
 

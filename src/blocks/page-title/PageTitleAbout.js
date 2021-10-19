@@ -5,9 +5,9 @@ const PageTitleAbout = () => {
         <section id="page-title">
             <div className="wrapper">
                 <div className="title position-relative">
-                    <h1>About<span className="dot">.</span></h1>
-
-                    <div className="title-clone">About.</div>
+                    {/* <h1>About me<span className="dot">.</span></h1> */}
+                    <h2><span className="line">About me</span></h2>
+                    {/* <div className="title-clone">About.</div> */}
                 </div>
             </div>
         </section>

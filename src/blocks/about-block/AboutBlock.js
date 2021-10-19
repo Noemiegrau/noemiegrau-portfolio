@@ -1,16 +1,16 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
-import Loading from '../blocks/loading/Loading';
-import Header from '../blocks/header/Header';
-import Footer from '../blocks/footer/Footer';
+import Loading from '../loading/Loading';
+import Header from '../header/Header';
+import Footer from '../footer/Footer';
 
-import PageTitleAbout from '../blocks/page-title/PageTitleAbout';
-import AboutContent from '../blocks/about/AboutContent';
-import MyExperience from '../blocks/about/MyExperience';
-import Awards from '../blocks/about/Awards';
+import PageTitleAbout from '../page-title/PageTitleAbout';
+import AboutContent from '../about/AboutContent';
+import MyExperience from '../about/MyExperience';
+import Awards from '../about/Awards';
 
-const About = () => {
+const AboutBlock = () => {
     document.body.classList.add( 'page' );
     document.body.classList.add( 'bg-fixed' );
     document.body.classList.add( 'bg-line' );
@@ -19,7 +19,7 @@ const About = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>About me</title>
+                <title>About | Oxer - Minimal Portfolio React Template</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,9 +33,10 @@ const About = () => {
 
             {/* <Loading /> */}
 
-            {/* <Header /> */}
+            <Header />
 
             <main id="main" className="site-main">
+                <p>Hello testtttttt</p>
                 <PageTitleAbout />
 
                 <section id="page-content" className="spacer p-top-xl">
@@ -49,9 +50,9 @@ const About = () => {
                 </section>
             </main>
 
-            {/* <Footer /> */}
+            <Footer />
         </Fragment>
     );
 };
 
-export default About;
+export default AboutBlock;

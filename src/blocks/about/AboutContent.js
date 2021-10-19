@@ -17,7 +17,7 @@ const AboutContent = () => {
                 </div>
 
                 <div className="col align-self-center description">
-                    <h4>I’m Luca Reynolds</h4>
+                    <h4>I am Noemie Grau</h4>
 
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 

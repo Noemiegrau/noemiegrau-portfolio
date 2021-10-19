@@ -17,7 +17,7 @@ const Works = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8"/>
-                <title>Works | Oxer - Minimal Portfolio React Template</title>
+                <title>Work</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />

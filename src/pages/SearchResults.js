@@ -17,7 +17,7 @@ const SearchResults = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>Search Results| Oxer - Minimal Portfolio React Template</title>
+                <title>Search Results</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
