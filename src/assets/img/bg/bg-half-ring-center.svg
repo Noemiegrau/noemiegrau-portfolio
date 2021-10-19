@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1050px" height="800px" viewBox="0 0 1050 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-half-ring-center</title>
+    <defs></defs>
+    <g id="bg-half-ring-center" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Background" transform="translate(0.000000, -137.000000)" fill="#FBFBFB">
+            <path d="M525,1058 C235.050506,1058 0,821.158633 0,529 C0,236.841367 235.050506,0 525,0 C814.949494,0 1050,236.841367 1050,529 C1050,821.158633 814.949494,1058 525,1058 Z M527.5,812 C680.206733,812 804,687.087445 804,533 C804,378.912555 680.206733,254 527.5,254 C374.793267,254 251,378.912555 251,533 C251,687.087445 374.793267,812 527.5,812 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

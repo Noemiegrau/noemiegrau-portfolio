@@ -1,0 +1,166 @@
+//=================================================
+// Widget
+//=================================================
+
+.widget-area {
+    @media #{$media_lg} {
+        margin-top: $space_xl;
+    }
+}
+
+.widget-area, [class*='widget-container'] {
+    .widget {
+        position: relative;
+        border-top: 1px solid $widget_border_color;
+        background: $widget_background_color;
+        padding: 1.75rem 0 0 3.31rem;
+        padding-bottom: 3.88rem;
+        
+        // Widget last child
+        &:last-child {
+            padding-bottom: 0;
+        }
+
+        // Widget top element
+        &:before {
+            content: '';
+            background-color: $widget_element_color;
+            width: 53px;
+            height: 5px;
+            position: absolute;
+            top: -3px;
+            left: 0;
+        }
+            
+        img, svg {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        // Widget search
+        &.widget_search {
+            padding: 1.56rem 0 0 3.31rem;
+            padding-bottom: 3.88rem;
+            
+            .search-form {
+                .border-bottom {
+                    border-bottom: 0 !important;
+                }
+                
+                .form-control {
+                    @extend .border-0;
+                    @extend .p-0;
+                    @extend .h-100;
+                }
+                
+                .input-group-append {
+                    .btn {
+                        @extend .transform-scale-h-none;
+                        
+                        &.btn-link {
+                            color: inherit;
+                        }
+                        
+                        span {
+                            display: none;
+                        }
+                        
+                        .icon-arrow-right {
+                            &:before {
+                                content: "\e807";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Gallery
+        &.widget_media_gallery {
+            .gallery {
+                margin-left: -0.5rem;
+                margin-right: -0.5rem;
+            
+                .gallery-item {
+                    display: inline-block;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                }
+            } 
+        }
+         
+        
+        // Tag
+        &.widget_tag_cloud {
+            .tagcloud {
+                display: table;
+                line-height: 1.75;
+                @include lhCrop-b(1.75, 0.75);
+                @include lhCrop-a(1.75, 0.75);
+            
+                .tag-cloud-link {
+                    display: inline-block;
+                    font-family: $font_secondary;
+                    letter-spacing: 3px;
+                    line-height: 1.23;
+                    @include lhCrop-b(1.23, 0.75);
+                    @include lhCrop-a(1.23, 0.75);
+                    word-break: break-all;
+                    margin-right: 1.19rem;
+                }
+            }        
+        }
+        
+        // Calendar
+        &.widget_calendar {
+            .calendar_wrap {
+                text-align: center;
+                
+                caption {
+                    margin-top: 1.39rem;
+                }
+                
+                a {
+                    font-weight: bold;
+                }
+                
+                table {
+                    width:100%;
+                    table-layout: fixed;
+                    background-color: $white;
+                    
+                    td {
+                        padding: 0.8rem 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.ui {
+    .widget-area, .widget-container {
+        &:last-child {
+            padding-bottom: 3.88rem;
+        }
+        
+        @media #{$media_md} {
+            margin-top: 0;
+            margin-bottom: 5.63rem;
+        }
+    }
+}
+
+// Elementor
+[class*='widget-card'] {
+    height: 100%;
+    
+    [class*='widget-container'] {
+        height: 100%;
+    }
+}
+
+.elementor-widget {
+    position: static !important;
+}

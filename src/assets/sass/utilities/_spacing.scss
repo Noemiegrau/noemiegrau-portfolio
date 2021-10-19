@@ -1,0 +1,62 @@
+//=================================================
+// Spacing
+//=================================================
+
+.spacer {
+    // Margin top
+    &.m-top-xl {
+        margin-top: $space_xl;
+    }
+    
+    &.m-top-lg {
+        margin-top: $space_lg;
+    }
+    
+    &.m-top-xs {
+        margin-top: $space_xs;
+    }
+    
+    // Margin bottom
+    &.m-bottom-xl {
+        margin-bottom: $space_xl;
+    }
+    
+    &.m-bottom-lg {
+        margin-bottom: $space_lg;
+    }
+    
+    &.m-bottom-xs {
+        margin-bottom: $space_xs;
+    }
+    
+    // Padding top
+    &.p-top-xl {
+        padding-top: $space_xl;
+    }
+    
+    &.p-top-lg {
+        padding-top: $space_lg;
+    }
+    
+    &.p-top-xs {
+        padding-top: $space_xs;
+    }
+    
+    // Padding bottom
+    &.p-bottom-xl {
+        padding-bottom: $space_xl;
+    }
+    
+    &.p-bottom-lg {
+        padding-bottom: $space_lg;
+    }
+    
+    &.p-bottom-xs {
+        padding-top: $space_xs;
+    }
+}
+
+.no-space {
+    font-size: 0;
+    line-height: 0;
+}

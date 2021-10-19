@@ -1,0 +1,38 @@
+//=================================================
+// Blog
+//=================================================
+
+#blog {
+    h2 {
+        position: relative;
+        z-index: 2;
+        margin-right: -0.88rem;
+        padding-bottom: 0;
+    }
+    
+    .ptb-blog {
+        margin-top: -1.44rem;
+        padding-top: $space_lg + 0.94rem;
+        padding-bottom: 5rem;
+    }
+    
+    .row {
+        @media #{$media_sm} {
+            > [class*="col-"] {
+                padding-bottom: 1.25rem;
+                
+                &:last-child {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.elementor-element {
+    &#blog {
+        .ptb-blog {
+            margin-top: -0.9rem;
+        }
+    } 
+}

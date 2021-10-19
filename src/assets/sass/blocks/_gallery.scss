@@ -1,0 +1,287 @@
+//=================================================
+// Gallery
+//=================================================
+
+/*=============================
+// Gallery filter
+=============================*/
+ul.gallery-filter {
+    display: table;
+    width: 100%;
+    text-align: center;
+    margin-bottom: -1.25rem;
+    
+    li {
+        display: inline-block;
+        margin-left: 0.69rem;
+        margin-right: 0.69rem;
+        margin-bottom: 1.25rem;
+        
+        @media #{$media_md} {
+            margin-left: 0.30rem;
+            margin-right: 0.30rem;
+        }
+        
+        a, span {
+            color: $gallery_filter_button_color;
+            border: 0;
+            padding: 0;
+        }
+        
+        a {
+            // Gallery filter click
+            &.click {
+                &:hover {
+                    color: $gallery_filter_button_hover_color;
+                }
+            }
+        
+            // Gallery filter active
+            &.active {
+                color: $gallery_filter_button_active_color;
+                
+                &:hover {
+                    @extend .transform-scale-h-none;
+                }
+            }
+        }
+    }
+}
+
+/*=============================
+// Gallery item wrapper
+=============================*/
+.gallery-item-wrapper {
+    position: relative;
+    padding-top: $space_lg;
+    padding-bottom: $space_lg;
+    
+    // Gallery items
+    .gallery-items {
+        // Gallery item
+        .gallery-item {
+            position: relative;
+            float: left;
+            width: 33.33%;
+            overflow: hidden;
+            
+            @media #{$media_xxxl} {
+                width: 25%;
+            }
+            
+            @media #{$media_lg} {
+                width: 50%;
+            }
+            
+            @media #{$media_sm} {
+                width: 100%;
+            }
+            
+            // Gallery item active
+            &.active {
+                &:nth-child(9n+1) {
+                    .object-fit {
+                        &:before {
+                            padding-top: 100%;
+                        }
+                    }
+                }
+
+                &:nth-child(9n+2) {
+                    .object-fit {
+                        &:before {
+                            padding-top: 85%;
+
+                            @media #{$media_lg} {
+                                padding-top: 100%;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(9n+3) {
+                    .object-fit {
+                        &:before {
+                            padding-top: 70%;
+                            
+                            @media #{$media_xxxl} {
+                                padding-top: 100%;
+                            }
+
+                            @media #{$media_lg} {
+                                padding-top: 100%;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(9n+4) {
+                    .object-fit {
+                        &:before {
+                            padding-top: 85%;
+
+                            @media #{$media_lg} {
+                                padding-top: 100%;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(9n+5) {
+                    .object-fit {
+                        &:before {
+                            padding-top: 70%;
+                            
+                            @media #{$media_xxxl} {
+                                padding-top: 85%;
+                            }
+
+                            @media #{$media_lg} {
+                                padding-top: 100%;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(9n+6) {
+                    .object-fit {
+                        &:before {
+                            padding-top: 100%;
+                        }
+                    }
+                }
+
+                &:nth-child(9n+7) {
+                    .object-fit {
+                        &:before {
+                            padding-top: 70%;
+                            
+                            @media #{$media_xxxl} {
+                                padding-top: 85%;
+                            }
+
+                            @media #{$media_lg} {
+                                padding-top: 100%;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-child(9n+8) {
+                    .object-fit {
+                        &:before {
+                            padding-top: 100%;
+                        }
+                    }
+                }
+
+                &:nth-child(9n+9) {
+                    .object-fit {
+                        &:before {
+                            padding-top: 85%;
+
+                            @media #{$media_lg} {
+                                padding-top: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Gallery item mobile display none last child
+            @media #{$media_lg} {
+                &:nth-child(9n+9) {
+                    display: none;
+                }
+                
+                &:nth-child(n+10) {
+                    display: block;
+                }
+            }
+            
+            @media #{$media_xxxl} {
+                &:nth-child(9n+9) {
+                    display: none;
+                }
+                
+                &:nth-child(n+10) {
+                    display: block;
+                }
+            }
+            
+            // Galery item transition all none
+            @extend .transition-all-none;
+            
+            // Gallery item hover
+            &:hover {
+                opacity: 1;
+                
+                .gallery-hover {
+                    &:before {
+                        transform: translateX(0%);
+                        visibility: visible;
+                    }
+                    
+                    .gallery-hover-wrapper {
+                        opacity: 1;
+                    }
+                }       
+            }
+                        
+            // Gallery item hover class
+            .gallery-hover {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+                transition: all 0.5s ease-in-out;
+            
+                &:before {
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    background-color: $gallery_item_background_color;
+                    visibility: hidden;
+                    transform: translateX(-100%);
+                    transition: all 0.5s ease-in-out;
+                }
+                
+                .gallery-hover-wrapper {
+                    position: absolute;
+                    z-index: 3;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    padding: $space_lg;
+                    opacity: 0;
+                    transition: all 0.5s ease-in-out;
+                }
+                
+                h1, h2, h3, h4, h5, h6 {
+                    color: $gallery_item_text_color;
+                    line-height: 1.18;
+                    @include lhCrop-b(1.18, 0.75);
+                    @include lhCrop-a(1.18, 0.75);
+                    margin-bottom: 0;
+                }
+                
+                .btn {
+                    color: $gallery_item_text_color;
+                    position: absolute;
+                    bottom: $space_lg;
+                    right: $space_lg;
+                }
+            }
+            
+            .img {
+                &.object-fit {
+                    margin-bottom: 0 !important;
+                }
+            } 
+        }
+    }
+}

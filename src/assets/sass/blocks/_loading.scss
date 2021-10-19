@@ -1,0 +1,21 @@
+//=================================================
+// Loading
+//=================================================
+
+.loading {
+    background-color: $body_background_color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.zoomin {
+    @extend .zoomIn;
+}
+
+.fadeinright {
+    @extend .fadeInRight;
+}

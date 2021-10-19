@@ -1,0 +1,107 @@
+//=================================================
+// Alert
+//=================================================
+
+$alert_link_success_color: theme-color-level(success, $alert-color-level);
+$alert_link_info_color:    theme-color-level(info, $alert-color-level);
+$alert_link_danger_color:  theme-color-level(danger, $alert-color-level);
+
+li.alert {
+    margin-bottom: $alert_margin_bottom;
+
+    &:last-child {
+        margin-bottom: $space_lg;
+    }
+}
+
+.alert {
+    line-height: 1.75;
+    @include lhCrop-b(1.75, 0.75);
+    @include lhCrop-a(1.75, 0.75);
+
+    a {
+        &:not(.alert-link) {
+            @extend .alert-link;
+        }
+    }
+
+    &-success {
+        a {
+            &:not(.alert-link) {
+                color: darken($alert_link_success_color, 10%);
+            }
+        }
+    }
+
+    &-info {
+        a {
+            &:not(.alert-link) {
+                color: darken($alert_link_info_color, 10%);
+            }
+        }
+    }
+
+    &-danger {
+        a {
+            &:not(.alert-link) {
+                color: darken($alert_link_danger_color, 10%);
+            }
+        }
+    }
+}
+
+.alert-link {
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+[class*='alert-dismiss'] {
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    padding: 3px;
+    font-size: 20px;
+    line-height: 1;
+    background: transparent;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+// Contact form
+.wpcf7-form {
+    [class*='response-output'] {
+        @extend .alert;
+        height: 100% !important;
+        border: 1px solid transparent !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        font-size: $f_size_lg;
+    }
+
+    &.invalid, &.unaccepted, &.spam, &.failed, &.aborted {
+        [class*='response-output'] {
+            @extend .alert-danger;
+            border-color: theme-color-level(danger, $alert-border-level) !important;
+        }
+    }
+
+    &.sent {
+        [class*='response-output'] {
+            @extend .alert-success;
+            border-color: theme-color-level(success, $alert-border-level) !important;
+        }
+    }
+
+    &.invalid, &.unaccepted, &.spam, &.failed, &.aborted, &.sent {
+        [class*='response-output'] {
+            margin-top: $alert_margin_bottom !important;
+            padding: $alert_padding_y $alert_padding_x !important;
+        }
+    }
+}

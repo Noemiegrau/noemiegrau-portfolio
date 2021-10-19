@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "title": "The only guide to travel insurance you’ll ever need",
+        "link": "/journal-single-post",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec bibendum mauris. Curabitur quis vehicula leo. Vivamus leo ipsum, convallis at magna sit amet, blandit condimentum neque. Quisque non.",
+        "categoryTitle": "Journal",
+        "categoryLink": "/journal"
+    },
+    {
+        "id": "2",
+        "title": "The best boutique hotels in Europe’s",
+        "link": "/journal-single-post",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec bibendum mauris. Curabitur quis vehicula leo. Vivamus leo ipsum, convallis at magna sit amet, blandit condimentum neque. Quisque non.",
+        "categoryTitle": "Journal",
+        "categoryLink": "/journal"
+    },
+    {
+        "id": "3",
+        "title": "The only guide to travel insurance you’ll ever need",
+        "link": "/journal-single-post",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec bibendum mauris. Curabitur quis vehicula leo. Vivamus leo ipsum, convallis at magna sit amet, blandit condimentum neque. Quisque non.",
+        "categoryTitle": "Journal",
+        "categoryLink": "/journal"
+    },
+    {
+        "id": "4",
+        "title": "Home portfolio",
+        "link": "/journal-single-post",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec bibendum mauris. Curabitur quis vehicula leo. Vivamus leo ipsum, convallis at magna sit amet, blandit condimentum neque. Quisque non.",
+        "categoryTitle": "Journal",
+        "categoryLink": "/journal"
+    },
+    {
+        "id": "5",
+        "title": "The company",
+        "link": "/journal-single-post",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec bibendum mauris. Curabitur quis vehicula leo. Vivamus leo ipsum, convallis at magna sit amet, blandit condimentum neque. Quisque non.",
+        "categoryTitle": "Journal",
+        "categoryLink": "/journal"
+    }
+]

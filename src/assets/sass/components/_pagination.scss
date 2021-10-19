@@ -1,0 +1,36 @@
+//=================================================
+// Pagination
+//=================================================
+
+.pagination {
+    margin-top: $space_lg;
+    
+    &:first-child {
+        margin-top: 0;
+    }
+        
+    .current {
+        .page-link {
+            background-color: $body_links_color;
+            color: $white;
+        }
+    }
+    
+    .page-link {
+        font-family: $ubuntu;
+        border: 0;
+        padding: 0.63rem 0.98rem;
+        @extend .transition-all;
+        margin-left: 0;
+        
+        &:hover {
+            background-color: $body_links_color;
+            color: $white;
+            @extend .transition-all;
+        }
+    }
+    
+    a:hover {
+        opacity: 1;
+    }
+}

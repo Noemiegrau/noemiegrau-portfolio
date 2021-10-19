@@ -1,0 +1,21 @@
+//=================================================
+// Transition
+//=================================================
+
+/*=============================
+// Transition all
+=============================*/
+.transition-all { 
+    transition: all $transition-s ease;
+    
+    &-none {
+        transition: none;
+    }
+}
+
+/*=============================
+// Transition opacity
+=============================*/
+.transition-opacity {
+    transition: opacity $transition-s ease;
+}

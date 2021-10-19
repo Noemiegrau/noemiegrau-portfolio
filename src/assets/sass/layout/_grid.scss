@@ -1,0 +1,152 @@
+//=================================================
+// Grid
+//=================================================
+
+/*=============================
+// Grid gutter
+=============================*/
+.row {
+    &.gutter-width {
+        // Size lg
+        &-lg {
+            margin-left: -$space_lg / 2;
+            margin-right: -$space_lg / 2;
+        
+            @media #{$media_xl} {
+                margin-left: -$space_lg / 3;
+                margin-right: -$space_lg / 3;
+            }
+        
+            @media #{$media_sm} {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        
+            // Col
+            .col,
+            [class*='col-'] {
+                padding-left: $space_lg / 2;
+                padding-right: $space_lg / 2;
+            
+                @media #{$media_xl} {
+                    padding-left: $space_lg / 3;
+                    padding-right: $space_lg / 3;
+                }
+            
+                @media #{$media_sm} {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        
+            // Padding bottom
+            &.with-pb-lg {
+                margin-bottom: -$space_lg;
+            
+                @media #{$media_xl} {
+                    margin-bottom: -$space_lg / 1.5;
+                }
+                
+                @media #{$media_sm} {
+                    margin-bottom: 0;
+                }
+            
+                .col,
+                [class*='col-'] {
+                    padding-bottom: $space_lg;
+                
+                    @media #{$media_xl} {
+                        padding-bottom: $space_lg / 1.5;
+                    }
+                    
+                    @media #{$media_sm} {
+                        &:last-child {
+                            padding-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Element
+[class*='-element'] {
+    [class*='-row'] {
+        flex-wrap: wrap;
+    }
+    
+    &.m-lr-equal {    
+        > [class*='r-container'] {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+    }
+    
+    &.gutter-width {
+        // Size lg
+        &-lg {
+            [class*='r-container'] {
+                margin-left: -$space_lg / 2;
+                margin-right: -$space_lg / 2;
+
+                @media #{$media_xl} {
+                    margin-left: -$space_lg / 3;
+                    margin-right: -$space_lg / 3;
+                }
+
+                @media #{$media_sm} {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+
+                // Col
+                .col,
+                [class*='col-'] {
+                    padding-left: $space_lg / 2;
+                    padding-right: $space_lg / 2;
+
+                    @media #{$media_xl} {
+                        padding-left: $space_lg / 3;
+                        padding-right: $space_lg / 3;
+                    }
+
+                    @media #{$media_sm} {
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+                }
+            }
+        
+            // Padding bottom
+            &.with-pb-lg {
+                [class*='r-container'] { 
+                    margin-bottom: -$space_lg;
+            
+                    @media #{$media_xl} {
+                        margin-bottom: -$space_lg / 1.5;
+                    }
+                
+                    @media #{$media_sm} {
+                        margin-bottom: 0;
+                    }
+            
+                    .col,
+                    [class*='col-'] {
+                        padding-bottom: $space_lg;
+                
+                        @media #{$media_xl} {
+                            padding-bottom: $space_lg / 1.5;
+                        }
+                        
+                        @media #{$media_sm} {
+                            &:last-child {
+                                padding-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

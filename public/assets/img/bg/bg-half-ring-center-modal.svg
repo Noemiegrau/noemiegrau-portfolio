@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="800px" viewBox="0 0 1920 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-half-ring-center-modal</title>
+    <defs></defs>
+    <g id="bg-half-ring-center-modal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Background" transform="translate(0.000000, -137.000000)" fill="#FBFBFB">
+            <path d="M631,1058 C341.050506,1058 106,821.158633 106,529 C106,236.841367 341.050506,0 631,0 C920.949494,0 1156,236.841367 1156,529 C1156,821.158633 920.949494,1058 631,1058 Z M633.5,812 C786.206733,812 910,687.087445 910,533 C910,378.912555 786.206733,254 633.5,254 C480.793267,254 357,378.912555 357,533 C357,687.087445 480.793267,812 633.5,812 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

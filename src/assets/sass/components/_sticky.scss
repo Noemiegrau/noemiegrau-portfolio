@@ -1,0 +1,17 @@
+//=================================================
+// Sticky
+//=================================================
+
+.sticky-fixed {
+    &-md {
+        position: relative;
+        top: 0;
+        overflow: scroll;
+        height: 100vh;
+        
+        @media #{$media_md} {
+            position: static;
+            height: auto;
+        }   
+    }
+}

@@ -1,0 +1,176 @@
+//=================================================
+// Forms
+//=================================================
+
+input[type="email"], 
+input[type="password"], 
+input[type="search"],
+input[type="tel"],
+input[type="text"], 
+input[type="url"], 
+select,
+textarea {
+    width: 100%;
+    border-radius: 0;
+}
+
+textarea {
+    display: block;
+    min-height: 200px;
+}
+            
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 0.30rem;
+}
+
+.site-main {
+    form {
+        p {
+            margin-top: $space_sm;
+            margin-bottom: $space_sm;
+            
+            &:first-child {
+                margin-top: 0;
+            }
+            
+            &:last-child {
+                margin-bottom: 0;
+            }
+            
+            &:before, &:after {
+                display: none;
+            }
+            
+            &.comment-form-cookies-consent {
+                @include lhCrop-b(1.75, 0.75);
+                @include lhCrop-a(1.75, 0.75);
+            }
+        }
+    }
+}
+
+.wpcf7-form {
+    max-width: 950px;
+}
+
+/*=============================
+// Form primary
+=============================*/
+select {
+    background: url(../../icons/svg/icon-arrow-down.svg) no-repeat center right 1.25rem;
+    appearance: none;
+}
+
+input, textarea, select {
+    background-color: $input_background_primary_color;
+    color: $input_text_color;
+    padding: 0.63rem 1.25rem;
+    border: 0;
+    font-size: 0.88rem;
+    line-height: 2.14;
+    border-bottom: 1px solid $input_border_primary_color;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    &:focus {
+        border-bottom: 1px solid $input_border_focus_color;
+        outline: none;
+    }
+}
+
+/*=============================
+// Form secondary
+=============================*/
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-right: 1.13rem;
+}
+
+/*=============================
+// Checkbox
+=============================*/
+.custom-control-label:after, 
+.custom-control-label:before {
+    top: 0.38rem;
+}
+
+/*=============================
+// Input group
+=============================*/
+.input-group {
+    input {
+        width: 50%;
+    }
+    
+    &.gutter-width-30 {
+        .gutter-width {
+            width: 50%;
+            
+            &:first-child {
+                padding-right: 0.94rem;
+                
+                @media #{$media_xl} {
+                    padding-right: 0.63rem;
+                }
+            }
+            
+            &:last-child {
+                padding-left: 0.94rem;
+                
+                @media #{$media_xl} {
+                    padding-left: 0.63rem;
+                }
+            }
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+}
+
+/*=============================
+// Contact form
+=============================*/
+.contact-form, .wpcf7-form {
+    max-width: 1050px;
+
+    .alert {
+        margin-top: $alert_margin_bottom;
+        margin-bottom: 0;
+    }
+
+    &.invalid {
+        [class*='validates-as-required'] {
+            border-color: theme-color-level(danger, $alert-color-level);
+
+            &:focus {
+                border-color: $input_border_focus_color;
+            }
+        }
+
+        .select2-container {
+            .selection {
+                .select2-selection {
+                    border-color: theme-color-level(danger, $alert-color-level);
+
+                    &:focus {
+                        border-color: $input_border_focus_color;
+                    }
+                }
+            }
+        }
+    }
+
+    .ajax-loader {
+        background-size: $f_size_df;
+        width: $f_size_df !important;
+        height: $f_size_df !important;
+    }
+}
+
+[class*='not-valid-tip'] {
+    color: theme-color-level(danger, $alert-color-level) !important;
+    font-size: $f_size_df !important;
+}

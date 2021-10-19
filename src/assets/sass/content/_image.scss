@@ -1,0 +1,75 @@
+//=================================================
+// Images
+//=================================================
+// Default
+img, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+// Object fit
+.img {
+    &.object-fit {
+        position: relative;
+        
+        &:before {
+            content: "";
+            display: block;
+            width: 100%;
+            padding-top: 100%;
+        }
+        
+        .object-fit-cover {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            outline: none;
+            
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                -o-object-fit: cover;
+            }
+            
+            figure {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
+        // Sizes
+        &.size-1 {
+            &:before {
+                padding-top: 47%;
+            }
+        }
+        
+        &.size-2 {
+            &:before {
+                padding-top: 54%;
+            }
+        }
+        
+        &.size-3 {
+            &:before {
+                padding-top: 85%;
+            }
+        }
+        
+        &.size-4 {
+            &:before {
+                padding-top: 95%;
+            }
+        }
+        
+        &.size-5 {
+            &:before {
+                padding-top: 112%;
+            }
+        }
+        
+    }
+}

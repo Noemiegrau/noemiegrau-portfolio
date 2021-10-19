@@ -1,0 +1,60 @@
+//=================================================
+// Footer
+//=================================================
+
+footer {
+    background-color: $body_background_color;
+
+    .wrapper {
+        padding-top: $footer_padding_t;
+        padding-bottom: $footer_padding_b;
+        
+        .copyright {
+            @media #{$media_lg} {
+                text-align: center;
+            }
+        }
+        
+        .menu-secondary {
+            text-align: center;
+   
+            ul {
+                li {
+                    margin-bottom: 0.88rem;
+                    
+                    &:last-child {
+                        margin-right: 0;
+                        
+                        @media #{$media_lg} {
+                            margin-right: auto;
+                        }
+                    }
+                    
+                    @media #{$media_lg} {
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 150px;
+                        
+                        .sub-menu {
+                            text-align: center;
+                            
+                            li {
+                                a {
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            @media #{$media_lg} {
+                padding-top: 3.07rem;
+            }
+        }
+        
+        .menu {
+            margin-bottom: -0.88rem;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+//=================================================
+// Contacts
+//=================================================
+
+#contacts {
+    .list-group {
+        @media #{$media_sm} {
+            display: table;
+            width: 100%;
+        }
+        
+        @media #{$media_md} {
+            margin-top: $space_lg;
+        }
+    }
+    
+    .list-group-item {
+        background-color: transparent;
+        border: 0;
+        padding: 0 7.5rem 5rem 0;
+                
+        @media #{$media_xxl} {
+            padding: 0;
+            margin: 0 5% 10% 5%;
+        }
+            
+        @media #{$media_md} {
+            margin: 0 10% $space_lg 0;
+        }
+            
+        @media #{$media_sm} {
+            display: inline-block;
+            width: 50%;
+            padding: 0 10% $space_lg 0;
+            margin: 0;
+        }
+            
+        p, a {
+            margin-top: 5px;
+        }
+            
+        a {
+            display: block;
+            font-weight: normal;
+        }
+    }
+}

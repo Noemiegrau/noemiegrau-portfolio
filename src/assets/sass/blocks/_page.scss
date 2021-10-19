@@ -1,0 +1,42 @@
+//=================================================
+// Page
+//=================================================
+
+// Description
+body:not(.elementor-page) {
+    .description {
+        > [class*='-block-'] {
+            margin-bottom: $space_sm + 0.5rem;
+                
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+            
+        h1 {       
+            font-size: 3.88rem;
+        }
+                
+        h1, h2, h3, h4, h5, h6 {
+            line-height: 1.56;
+            @include lhCrop-b(1.56, 0.75);
+            margin-bottom: 1.01rem;
+    
+            &:last-child {
+                @include lhCrop-a(1.56, 0.75);
+            }
+        }
+        
+        [class*='-block-cover'] {
+            margin-top: 0.5rem;
+        }
+        
+        .wp-block-columns {
+            margin-bottom: 0;
+            
+            .wp-block-column {
+                margin-bottom: $space_sm + 0.5rem;
+            }
+        }  
+    }   
+}

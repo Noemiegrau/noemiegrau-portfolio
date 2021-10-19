@@ -1,0 +1,84 @@
+//=================================================
+// About
+//=================================================
+
+#about {
+    h2 {
+        padding-left: 8.5%;
+        line-height: 1.42;
+        @include lhCrop-b(1.42, 0.65);
+        @include lhCrop-a(1.42, 0.75);
+        
+        @media #{$media_sm} {
+            padding-left: 0;
+        }
+    }
+    
+    h3, h4, h5, h6 {
+        margin-bottom: 1.74rem
+    }
+    
+    .row, .class-row {
+        padding-left: 19%;
+        
+        @media #{$media_sm} {
+            padding-left: 0;
+        }
+        
+        .col {
+            -ms-flex: 0 0 38.77778%;
+            flex: 0 0 38.77778%;
+            max-width: 38.77778%;
+            
+            @media #{$media_lg} {
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+            
+            @media #{$media_sm} {
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+    
+    [class*='-element'] {
+        &[class*='gutter-width-'] {
+            [class*='-row'] {
+                @extend .class-row;
+            }
+        }
+    }
+    
+    .img {
+        &.object-fit {
+            &:before {
+                padding-top: 113.88889%;
+            }
+        }
+    }
+    
+    @media #{$media_sm} {
+        .description {
+            padding-top: $space_md;
+        }
+    }
+}
+
+@media #{$media_sm} {
+    #awards {
+        .row {
+            margin-bottom: -1.25rem;
+            
+            > div {
+                padding-bottom: 1.25rem;
+                
+                &:last-child {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+}

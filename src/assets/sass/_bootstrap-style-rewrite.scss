@@ -1,0 +1,110 @@
+//=================================================
+// Bootstrap styles rewrite
+//=================================================
+
+//=============================
+// Color system
+//=============================
+$colors: (
+    blue:                             $blue,
+    indigo:                           $indigo,
+    purple:                           $purple,
+    pink:                             $pink,
+    red:                              $red,
+    orange:                           $orange,
+    yellow:                           $yellow,
+    green:                            $green,
+    teal:                             $teal,
+    cyan:                             $cyan,
+    white:                            $white,
+    gray:                             $gray,
+    gray-dark:                        $gray-dark
+);
+
+$theme-colors: (
+    primary:                          $blue,
+    secondary:                        $gray,
+    success:                          $green,
+    info:                             $cyan,
+    warning:                          $yellow,
+    danger:                           $red,
+    light:                            $gray-light,
+    dark:                             $gray-dark
+);
+
+//=============================
+// Components
+//=============================
+$border-color:                        $body_border_color;
+
+$border-radius:                       $border_radius;
+$border-radius-lg:                    $border_radius_lg;
+$border-radius-sm:                    $border_radius_sm;
+
+//=============================
+// Typography
+//=============================
+$font-family-base:                    $font_primary;
+
+$line-height-base:                    $line_height_base;
+$body-color:                          $body_text_primary_color;
+
+//=============================
+// Links
+//=============================
+$link-color:                          $body_links_color;
+$link-hover-color:                    $body_links_hover_color;
+$link-hover-decoration:               $body_links_hover_decoration;
+
+//=============================
+// Buttons
+//=============================
+$btn-font-family:                     $font_secondary;
+$btn-border-radius:                   $border_radius;
+$btn-border-radius-sm:                $border_radius_lg;
+$btn-border-radius-lg:                $border_radius_sm;
+$btn-focus-width:                     $button_focus_width;
+
+//=============================
+// Modals
+//=============================
+$modal-backdrop-bg:                   $modal_background_color;
+$modal-content-bg:                    $modal_background_content_color;
+$modal-backdrop-opacity:              $modal_backdrop_opacity;
+
+//=============================
+// Alert
+//=============================
+$alert-padding-y:                     $alert_padding_y;
+$alert-padding-x:                     $alert_padding_x;
+$alert-margin-bottom:                 $alert_margin_bottom;
+$alert-border-radius:                 $alert_border_radius;
+
+// Forms
+$input-padding-y:                     $input_padding_y; 
+$input-padding-x:                     $input_padding_x;
+$input-font-size:                     $input_font_size;
+$input-line-height:                   $input_line_height;
+
+$input-bg:                            $input_background_secondary_color;
+
+$input-color:                         $input_text_color;
+$input-border-color:                  $input_border_secondary_color;
+
+$input-border-radius:                 $input_border_radius;
+
+$input-focus-border-color:            $input_border_focus_color;
+$input-focus-box-shadow:              $input_focus_box_shadow;
+
+$custom-control-indicator-checked-bg: $body_main_element_color;
+
+//=============================
+// Buttons + Forms
+//=============================
+$input-btn-focus-box-shadow:          $input_btn_focus_box_shadow;
+
+//=============================
+// Cards
+//=============================
+$card-border-color:                   $card_border_color;
+$card-bg:                             $card_background_color;

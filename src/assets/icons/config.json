@@ -1,0 +1,108 @@
+{
+  "name": "oxer",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "a46f632831bccf3787fb7d76dfda815b",
+      "css": "arrow-down",
+      "code": 59396,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M276 1000L0 778 62 702 228 836V0L326 0V834L492 700 552 778 276 1000Z",
+        "width": 552
+      },
+      "search": [
+        "arrow-down"
+      ]
+    },
+    {
+      "uid": "aa4efd726a0f5087db150c1daac161b2",
+      "css": "arrow-right",
+      "code": 59398,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M1000 500L778 776 702 714 836 548 0 548 0 450 834 450 700 284 778 224 1000 500Z",
+        "width": 1000
+      },
+      "search": [
+        "arrow-right"
+      ]
+    },
+    {
+      "uid": "c5c3b2f7134cd4ad77b767128f088907",
+      "css": "arrow-left",
+      "code": 59397,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M0 500L222 224 298 286 164 452 1000 452V550L166 550 300 716 222 776 0 500Z",
+        "width": 1000
+      },
+      "search": [
+        "arrow-left"
+      ]
+    },
+    {
+      "uid": "6ffd7653672c20ff20cf59c130654f2d",
+      "css": "search",
+      "code": 59399,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M913 1000L677 764C606 815 520 843 432 843 199 843 10 654 10 421 10 189 199 0 431 0S852 189 852 421C852 519 817 614 755 689L990 923 913 1000ZM431 109C259 109 119 249 119 421S259 733 431 733C510 733 585 704 643 650 707 591 743 507 743 420 744 249 604 109 431 109Z",
+        "width": 1000
+      },
+      "search": [
+        "search"
+      ]
+    },
+    {
+      "uid": "640006fae8ba29352cd091d7436b05ce",
+      "css": "arrow-up",
+      "code": 59395,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M276 0L552 222 490 298 324 164 324 1000H226V166L60 300 0 222 276 0Z",
+        "width": 552
+      },
+      "search": [
+        "arrow-up"
+      ]
+    },
+    {
+      "uid": "89a6f5620d0d923496b2564e685270d3",
+      "css": "menu",
+      "code": 59392,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M977.8 111.1H0V0H977.8V111.1ZM977.8 888.9H0V1000H977.8V888.9Z",
+        "width": 978
+      },
+      "search": [
+        "menu"
+      ]
+    },
+    {
+      "uid": "ea6a6a2dc24b2546b483078caf4bf9ca",
+      "css": "close",
+      "code": 59393,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M577.5 493L985.9 901.4 887.3 1000 478.9 591.5 98.6 985.9 0 887.3 380.3 507 0 112.7 98.6 14.1 478.9 394.4 887.3 0 985.9 98.6 577.5 493Z",
+        "width": 986
+      },
+      "search": [
+        "close"
+      ]
+    }
+  ]
+}

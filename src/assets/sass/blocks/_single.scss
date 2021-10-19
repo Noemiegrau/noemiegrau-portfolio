@@ -1,0 +1,119 @@
+//=================================================
+// Single
+//=================================================
+
+#single {
+    .single-content {
+        // Img
+        .img {
+            margin-bottom: $space_lg;
+
+            &:last-child {
+                margin-bottom: 0;
+            
+                @media #{$media_md} {
+                    margin-bottom: 2.5rem;
+                }
+            }
+        }
+        
+        // Meta
+        .meta {
+            margin-bottom: $space_xs;
+            
+            p {
+                display: table;
+                width: 100%;
+                
+                span {
+                    margin-right: 1.26rem;
+                }
+            
+                .category {
+                    span {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        
+        // Post tags
+        .tags {
+            margin-top: $space_md;
+            
+            p {
+                display: table;
+                font-size: 0.81rem;
+                font-family: $font_secondary;
+                letter-spacing: 3px;
+                line-height: 1.23;
+                @include lhCrop-b(1.23, 0.75);
+                @include lhCrop-a(1.23, 0.75);
+                word-break: break-all;
+                
+                span {
+                    margin-right: 0.31rem;
+                }
+
+                .tags-title {
+                    font-family: $font_secondary_bold;
+                    color: $body_headline_color;
+                    text-transform: uppercase;
+                    margin-right: 1.19rem;
+                }
+                
+                a {
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
+
+/*=============================
+// Single post
+=============================*/
+.single-post, [class*='single-'] {
+    #single {
+        .single-content {
+            // Img
+            .img {
+                &.object-fit {
+                    &:before {
+                        padding-top: 47%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*=============================
+// Single portfolio
+=============================*/
+.single-portfolio, .single-adveits_portfolio {
+    #single {
+        .single-content {
+            // Img
+            .img {
+                &.object-fit {
+                    &:before {
+                        padding-top: 54%;
+                    }
+                }
+            }
+            
+            // Title
+            h1 {
+                margin-bottom: 2.24rem;
+            }
+            
+            // Description
+            .description {
+                p {
+                    margin-bottom: 3.25rem;
+                }
+            }
+        }
+    }
+}

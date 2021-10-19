@@ -1,0 +1,280 @@
+//=================================================
+// Nav
+//=================================================
+
+/*=============================
+// Menu primary
+=============================*/
+nav {
+    &.menu-primary {
+        padding-top: 4.38rem;
+        padding-bottom: 4.38rem;
+                
+        ul {
+            li {
+                list-style: none;
+                margin-bottom: 2.31rem;
+                text-align: right;
+                
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                
+                @media #{$media_xl} {
+                    margin-bottom: 2rem;
+                }
+                
+                @media #{$media_lg} {
+                    margin-bottom: 1.7rem;
+                }
+                
+                @media #{$media_sm} {
+                    margin-bottom: 1.4rem;
+                }
+                
+                a {
+                    font-family: $font_menu_primary;
+                    color: $menu_primary_links_color;
+                    position: relative;
+                    z-index: 1;
+                    line-height: normal;
+                    padding-left: 0.63rem;
+                    padding-right: 0.63rem;
+                    font-size: 6.25rem;
+                    
+                    @media #{$media_xl} {
+                        font-size: 5rem;
+                    }
+                    
+                    @media #{$media_lg} {
+                        font-size: 4rem;
+                    }
+                    
+                    @media #{$media_sm} {
+                        font-size: 3rem;
+                    }
+
+                    &:before {
+                        content: "";
+                        background-color: $menu_primary_links_element_color;
+                        position: absolute;
+                        left: 0;
+                        right: 100%;
+                        bottom: 1.6rem;
+                        z-index: -1;
+                        height: 2.5rem;
+                        transition-property: right;
+                        transition-duration: .4s;
+                        transition-timing-function: ease-out;
+                        
+                        @media #{$media_xl} { 
+                            height: 1.85rem;
+                            bottom: 1.35rem;
+                        }
+                        
+                        @media #{$media_lg} {
+                            height: 1.60rem;
+                            bottom: 1.05rem;
+                        }
+                        
+                        @media #{$media_sm} {
+                            height: 1.2rem;
+                            bottom: 0.75rem;
+                        }
+                    }
+                    
+                    &:hover {
+                        color: $menu_primary_links_hover_color;
+                        opacity: 1;
+                        @extend .transition-all;
+                        
+                        &:before {
+                            right: 0;
+                        }
+                    }
+                }
+                
+                // Active link
+                &.current-menu-item {
+                    > a {
+                        color: $menu_primary_links_active_color;
+                        
+                        &:before {
+                            right: 0;
+                        }
+                    }
+                }
+                
+                &.menu-item-has-children {
+                    span {
+                        &.icon-c {
+                            top: -0.2rem;
+                            color: $menu_primary_links_color;
+                            @extend .transition-all;
+                            
+                            &:hover {
+                                @extend .transform-scale-h;
+                                @extend .transition-all;
+                                color: $menu_primary_links_hover_color;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            // Submenu block
+            &.sub-menu {
+                margin-right: 1.39rem;
+                
+                li {
+                    a {
+                        font-size: 4rem;
+                        
+                         @media #{$media_xl} {
+                             font-size: 3rem;
+                        }
+                    
+                        @media #{$media_lg} {
+                            font-size: 2rem;
+                        }
+                     
+                        @media #{$media_sm} {
+                            font-size: 1.5rem;
+                        }
+                        
+                        &:before {
+                            height: 1.60rem;
+                            bottom: 1.05rem;
+                            
+                            @media #{$media_xl} { 
+                                height: 1.2rem;
+                                bottom: 0.75rem;
+                            }
+                        
+                            @media #{$media_lg} {
+                                height: 0.8rem;
+                                bottom: 0.5rem;
+                            }
+                        
+                            @media #{$media_sm} {
+                                height: 0.5rem;
+                                bottom: 0.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }   
+    }
+}
+
+/*=============================
+// Menu secondary
+=============================*/
+nav {
+    &.menu-secondary {
+        ul {
+            padding: 0;
+            margin: 0;
+             
+            li {
+                position: relative;
+                float: left;
+                margin: 0 2.5rem 0 0;
+                padding: 0;
+                
+                @media #{$media_lg} {
+                    float: none;
+                    z-index: 1;
+                    margin: 0;
+                    margin-bottom: $space_xs;
+                    
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+                
+                a {
+                    color: $menu_secondary_links_color;
+                    text-align: left;
+                    
+                    &:hover {
+                        color: $menu_secondary_links_hover_color;
+                    }
+                }
+                
+                &.current-menu-item {
+                    > a {
+                        color: $menu_secondary_links_active_color;
+                    }
+                }
+                
+                span {
+                    &.icon-c {
+                        position: absolute;
+                        top: 1px;
+                        right: -1.1rem;
+                    }
+                }
+            }
+            
+            // Submenu block
+            &.sub-menu {
+                position: absolute;
+                padding: 0.88rem;
+                margin-top: 0.88rem;
+                margin-bottom: 0.88rem;
+                background: $white;
+                z-index: 1;
+                width: 200px;
+                text-align: left;
+                
+                @media #{$media_lg} {
+                    position: static;
+                    width: 100%;
+                    background: transparent;
+                    padding: 0;
+                }
+                
+                li {
+                    float: none;
+                    margin: 0;
+                    margin-bottom: 0.88rem;
+                    
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    
+                    .icon-c {
+                        right: 0;
+                        
+                        &.icon-arrow-down {
+                            &:before {
+                                content: "\e806";
+                                
+                                @media #{$media_lg} {
+                                     content: "\e804";
+                                }
+                            }
+                        }
+                    }
+                    
+                    a {
+                        text-align: left;
+                    }
+                    
+                    .sub-menu {
+                        top: -0.88rem;
+                        right: -200px;
+                        margin: 0;
+                        
+                        @media #{$media_lg} {
+                            margin-top: 0.88rem;
+                            margin-bottom: 0.88rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

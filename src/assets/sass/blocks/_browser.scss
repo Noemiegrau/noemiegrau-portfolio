@@ -1,0 +1,13 @@
+//=================================================
+// Browser
+//=================================================
+
+.browser {
+    background: $body_background_color;
+    padding-top: $header_padding_t;
+    padding-bottom: $header_padding_b;
+    
+    a {
+        text-decoration: underline;
+    }
+}

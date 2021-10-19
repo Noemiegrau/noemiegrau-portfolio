@@ -1,0 +1,23 @@
+//=================================================
+// FAQ
+//=================================================
+
+[class*="faq-section"] {
+    margin-bottom: 1.39rem;
+    
+    &:last-child {
+        margin-bottom: 0;
+    }
+    
+    .schema-faq-answer {
+        margin-top: 1.39rem;
+        
+        &:first-child {
+            margin-top: 0;
+        }
+        
+        img {
+            margin-bottom: 0.5em;
+        }
+    }
+}

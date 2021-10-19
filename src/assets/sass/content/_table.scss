@@ -1,0 +1,20 @@
+//=================================================
+// Table
+//=================================================
+
+table, [class*="calendar"] {
+    th, td {
+        border: 1px solid $body_border_color;
+        padding: 0.8rem 1rem;
+    }
+}
+
+table {
+    width: 100%;
+    margin-bottom: $space_sm;
+          
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+      

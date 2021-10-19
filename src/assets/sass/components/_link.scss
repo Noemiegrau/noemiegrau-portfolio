@@ -1,0 +1,55 @@
+//=================================================
+// Links
+//=================================================
+
+a {
+    color: $body_links_color;
+    @extend .transition-all;
+    
+    &:hover {
+        color: $body_links_hover_color;
+        text-decoration: none;
+        @extend .transition-all;
+        opacity: 0.8;
+    }
+    
+    &.btn, &.text-secondary {
+        &:hover {
+            opacity: 1;
+        }
+    }
+    
+    // Small
+    &.a-small {
+        font-size: 0.81rem;
+    }
+    
+    // Large
+    &.a-large {
+        font-size: 1.31rem;
+        
+        @media #{$media_xl} {
+            font-size: 1rem;
+        }
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @extend .transition-all;
+    
+    a {
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+h3 {
+    &.small {
+        a {
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}

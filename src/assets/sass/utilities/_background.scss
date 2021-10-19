@@ -1,0 +1,124 @@
+//=================================================
+// Background
+//=================================================
+
+.bg-gray {
+    background-color: $gray;
+}   
+
+.bg-gray-light {
+    background-color: $gray-light;
+}
+
+.bg-gray-dark {
+    background-color: $gray-dark;
+}
+
+.bg-line {
+    background-image: url(../../img/bg/bg-line.svg);
+}
+
+.bg-half-ring-center {
+    background-image: url(../../img/bg/bg-half-ring-center.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bg-half-ring-left {
+    &:before {
+        content: '';
+        background-image: url(../../img/bg/bg-half-ring-left.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        width: 527px;
+        height: 1058px;
+        
+        @media #{$media_md} {
+            width: 100%;
+            background-size: 90%;
+        }
+    }
+}
+
+.bg-half-ring-right {
+    &:before {
+        content: '';
+        background-image: url(../../img/bg/bg-half-ring-right.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        width: 527px;
+        height: 1058px;
+        
+        @media #{$media_md} {
+            width: 100%;
+            background-size: 90%;
+        }
+    }
+}
+
+.bg-half-ring-up {    
+    &:before {
+        content: '';
+        background-image: url(../../img/bg/bg-half-ring-up.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: 1050px;
+        height: 658px;
+        
+        @media #{$media_xl} {
+            width: 100%;
+            background-size: 90%;
+        }
+    }
+}
+
+.bg-half-ring-center {
+    &:before {
+        content: '';
+        background-image: url(../../img/bg/bg-half-ring-center.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: 1050px;
+        height: 800px;
+        
+        @media #{$media_xl} {
+            width: 100%;
+            background-size: 90%;
+        }
+    }
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-half-ring-top {
+    &:before {
+        top: 0; 
+    }
+}
+
+// Position
+.bg-mt {
+    &-level {
+        &_1 {
+            &:before {
+                margin-top: 160px;
+            }
+        }
+    }
+}
