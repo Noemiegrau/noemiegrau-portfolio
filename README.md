@@ -1,4 +1,4 @@
-# **_Official Portfolio_**
+# **_My Official Portfolio_**
 
 ## **_Table of contents_**
 * [Description of the project](#description-of-the-project)
@@ -6,7 +6,7 @@
 * [Usage](#Usage)
 * [Installation](#installation)
 * [Link URL to GitHub Repository](#link-URL-to-GitHub-repository)
-* [Link URL of deployed app to Heroku](#link-URL-of-deployed-app-to-Heroku)
+* [Link URL of deployed app to GitHub Pages](#link-URL-of-deployed-app-to-GitHub-Pages)
 
 ## **_Description of the project_**
 
@@ -15,6 +15,8 @@ This repository contains all the coding data related to my official portfolio we
 ## **_Technologies used_**
 Project is created using:
 * JavaScript
+* SASS
+* CSS
 * Nodejs
 * REACT
 * Gh-pages
