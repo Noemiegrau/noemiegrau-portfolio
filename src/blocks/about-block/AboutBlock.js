@@ -19,7 +19,7 @@ const AboutBlock = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>About | Oxer - Minimal Portfolio React Template</title>
+                <title>About</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />

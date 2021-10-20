@@ -6,10 +6,14 @@ import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
 
 import PageTitleHome from '../blocks/page-title/PageTitleHome';
-import About from './About';
 import Works from '../blocks/works/Works';
+import Reviews from '../blocks/reviews/Reviews';
+import Resume from '../blocks/resume/Resume';
 import Contacts from '../blocks/contacts/Contacts';
+
+import About from './About';
 import ContactsPage from './Contacts';
+
 // import Journal from '../blocks/blog/Blog';
 // import AboutBlock from '../blocks/about-block/AboutBlock';
 
@@ -44,7 +48,11 @@ const Home = () => {
                 {/* <AboutBlock /> */}
                 <About />
 
+                <Resume />
+
                 <Works />
+
+                <Reviews />
 
                 <Contacts />
 
