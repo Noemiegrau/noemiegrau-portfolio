@@ -3,9 +3,9 @@ import AwardItemsData from '../../data/awards/awards';
 
 const Awards = () => {
     return (
-        <div id="awards" className="block spacer p-top-xl">
-            <h2 className="text-left">
-                <span className="line">Awards I’ve earned</span>
+        <div id="Skills" className="block spacer p-top-xl">
+            <h2 title="Skills" className="text-left transform-scale-h">
+                <span className="line">My skills</span>
             </h2>
 
             <div className="row gutter-width-lg with-pb-lg">

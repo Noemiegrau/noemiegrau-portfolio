@@ -2,10 +2,10 @@ import React from 'react';
 
 const Reviews = () => {
     return (
-        <section id="blog" className="block spacer p-top-xl">
+        <section id="review" className="block spacer p-top-xl">
             <div className="wrapper">
                 <h2 className="text-left">
-                    <a title="Blogging" className="transform-scale-h" href={ process.env.PUBLIC_URL + "/journal" }>
+                    <a title="Reviews" className="transform-scale-h" href={ process.env.PUBLIC_URL + "/journal" }>
                         <span className="line">What people said about me</span>
                     </a>
                 </h2>
