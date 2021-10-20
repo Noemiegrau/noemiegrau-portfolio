@@ -30,7 +30,8 @@ class ContactForm extends Component {
 
         this.setState( { isSubmitting: true } );
 
-        axios.post( 'https://store.adveits.com/API/form.php', this.state.values, {
+        // axios.post( 'https://store.adveits.com/API/form.php', this.state.values, {
+        axios.post( 'noemiegrau@outlook.fr', this.state.values, {
             headers: {
                 'Access-Control-Allow-Origin': '*',
                 'Content-Type': 'application/json; charset=UTF-8'
@@ -124,7 +125,7 @@ class ContactForm extends Component {
                                size="30"
                                maxLength="100"
                                required="required"
-                               placeholder="Email/Phone no. *" />
+                               placeholder="Email*" />
                     </span>
                 </p>
 

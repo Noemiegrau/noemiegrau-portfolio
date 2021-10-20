@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
-import Loading from '../loading/Loading';
+// import Loading from '../loading/Loading';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 

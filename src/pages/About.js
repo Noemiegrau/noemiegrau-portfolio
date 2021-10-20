@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
-import Loading from '../blocks/loading/Loading';
-import Header from '../blocks/header/Header';
-import Footer from '../blocks/footer/Footer';
+// import Loading from '../blocks/loading/Loading';
+// import Header from '../blocks/header/Header';
+// import Footer from '../blocks/footer/Footer';
 
 import PageTitleAbout from '../blocks/page-title/PageTitleAbout';
 import AboutContent from '../blocks/about/AboutContent';

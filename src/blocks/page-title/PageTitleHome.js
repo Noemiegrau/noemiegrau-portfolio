@@ -14,7 +14,7 @@ const PageTitleHome = () => {
                         </div>
 
                         <div className="spacer p-top-lg">
-                            <p className="p-large w-75">My name is Noemie Grau. I’m a photographer and heres is my portfolio. Have a look.</p>
+                            <p className="p-large w-75">My name is <strong>Noemie Grau</strong>. I’m a <strong>Full Stack Software Engineer</strong> and here is my portfolio. Have a look!</p>
                         </div>
                     </div>
 

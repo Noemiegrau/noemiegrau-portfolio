@@ -7,6 +7,7 @@ const PageTitleAbout = () => {
                 <div className="title position-relative">
                     {/* <h1>About me<span className="dot">.</span></h1> */}
                     <h2><span className="line">About me</span></h2>
+                    {/* <span className="dot">.</span> */}
                     {/* <div className="title-clone">About.</div> */}
                 </div>
             </div>

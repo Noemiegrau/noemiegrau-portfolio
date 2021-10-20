@@ -8,8 +8,9 @@ import Footer from '../blocks/footer/Footer';
 import PageTitleHome from '../blocks/page-title/PageTitleHome';
 import About from './About';
 import Works from '../blocks/works/Works';
-import Journal from '../blocks/blog/Blog';
 import Contacts from '../blocks/contacts/Contacts';
+import ContactsPage from './Contacts';
+// import Journal from '../blocks/blog/Blog';
 // import AboutBlock from '../blocks/about-block/AboutBlock';
 
 const Home = () => {
@@ -47,7 +48,9 @@ const Home = () => {
 
                 <Contacts />
 
-                <Journal />
+                <ContactsPage />
+
+                {/* <Journal /> */}
             </main>
 
             <Footer />
