@@ -1,9 +1,9 @@
 {
-    "homepage": "http://Noemiegrau.github.io/photo-port",
-    "name": "oxer",
+    "homepage": "https://Noemiegrau.github.io/Noemiegrau-portfolio",
+    "name": "portfolio",
     "version": "1.0.0",
-    "description": "Minimal Portfolio React JS Template",
-    "author": "Adveits",
+    "description": "Noemie Grau Personal Portfolio",
+    "author": "Noemiegrau",
     "dependencies": {
         "@react-pdf-viewer/core": "^2.10.1",
         "@react-pdf-viewer/default-layout": "^2.10.1",
