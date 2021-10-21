@@ -17,7 +17,7 @@ const Resume = () => {
     const [defaultPdfFile] = useState(pdfFile);
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
     return (
-    <section id="resume" className="block spacer p-top-xl">
+    <section id="resumeContainer" className="block spacer p-top-xl">
       <div className="wrapper">
         <h2 className="text-left">
             <h2 title="Resume" className="transform-scale-h">

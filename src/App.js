@@ -11,79 +11,96 @@ import WorksInside from './pages/WorksInside';
 import page404 from './pages/404';
 import UserInterface from './pages/UserInterface';
 
+import Nav from './nav/Nav';
+import NavProvider from './nav/NavContext';
 
-// import Nav from './nav/Nav';
-// import NavProvider from './nav/NavContext';
 
 
 function App() {
     return (
-
-        // <div className='appContainer'>
-		// 	<NavProvider>
-		// 		<Nav />
-		// 		<Home />
-		// 	</NavProvider>
-		// </div>
-
-<Router>
-    <Switch> 
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/" }` }
-                    component={ Home }
-                /> 
-                  <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/about" }` }
-                    component={ About }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/about" }` }
-                    component={ About }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/contacts" }` } 
-                    component={ Contacts }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/journal" }` }
-                    component={ Journal }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/journal-single-post" }` }
-                    component={ JournalSinglePost }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/search-results" }` }
-                    component={ SearchResults }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works" }` }
-                    component={ Works }
-                />
-                {/* <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/ui" }` }
-                    component={ UserInterface }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-inside" }` }
-                    component={ WorksInside }
-                />   */}
-                 <Route exact component={ page404 }/> 
-             </Switch> 
-             </Router>
+        <section>
+            <Router>
+                <NavProvider>
+                    <Home />
+                </NavProvider>
+            </Router>
+        </section>
 
 );
 
 }
+
+
+
+
+// function App() {
+//     return (
+
+//         // <div className='appContainer'>
+// 		// 	<NavProvider>
+// 		// 		<Nav />
+// 		// 		<Home />
+// 		// 	</NavProvider>
+// 		// </div>
+
+// <Router>
+//     <Switch> 
+//                 <Route
+//                     exact
+//                     path={ `${ process.env.PUBLIC_URL + "/" }` }
+//                     component={ Home }
+//                 /> 
+//                   <Route
+//                     exact
+//                     path={ `${ process.env.PUBLIC_URL + "/about" }` }
+//                     component={ About }
+//                 />
+//                 <Route
+//                     exact
+//                     path={ `${ process.env.PUBLIC_URL + "/about" }` }
+//                     component={ About }
+//                 />
+//                 <Route
+//                     exact
+//                     path={ `${ process.env.PUBLIC_URL + "/contacts" }` } 
+//                     component={ Contacts }
+//                 />
+//                 <Route
+//                     exact
+//                     path={ `${ process.env.PUBLIC_URL + "/journal" }` }
+//                     component={ Journal }
+//                 />
+//                 <Route
+//                     exact
+//                     path={ `${ process.env.PUBLIC_URL + "/journal-single-post" }` }
+//                     component={ JournalSinglePost }
+//                 />
+//                 <Route
+//                     exact
+//                     path={ `${ process.env.PUBLIC_URL + "/search-results" }` }
+//                     component={ SearchResults }
+//                 />
+//                 <Route
+//                     exact
+//                     path={ `${ process.env.PUBLIC_URL + "/works" }` }
+//                     component={ Works }
+//                 />
+//                 {/* <Route
+//                     exact
+//                     path={ `${ process.env.PUBLIC_URL + "/ui" }` }
+//                     component={ UserInterface }
+//                 /> */}
+//                 <Route
+//                     exact
+//                     path={ `${ process.env.PUBLIC_URL + "/works-inside" }` }
+//                     component={ WorksInside }
+//                 />   
+//                  <Route exact component={ page404 }/> 
+//              </Switch> 
+//              </Router>
+
+// );
+
+// }
 
 export default App;

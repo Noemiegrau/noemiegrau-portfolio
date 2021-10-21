@@ -1,19 +1,19 @@
 import React from 'react';
 import Logo from '../../blocks/logo/Logo';
-import SearchModal from '../../components/modal/SearchModal';
-import MenuModal from '../../components/modal/MenuModal';
+import Nav from '../../nav/Nav';
+import '../../nav/Nav.css';
 
 const Header = () => {
     return (
-        <header id="header" className="site-header">
-            <div className="wrapper d-flex justify-content-between">
+        <header id="header" className="site-header justify-content-end">
+            <div id="wrapperHeader" className="wrapper d-flex">
                 <div className="align-self-center">
                     <Logo image={ "/assets/img/logo/logo.svg" } />
                 </div>
 
-                <SearchModal />
-
-                <MenuModal />
+                <div className="justify-content-end ml-auto">
+                    <Nav />
+                </div>
             </div>
         </header>
     );
