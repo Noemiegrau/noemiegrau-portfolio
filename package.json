@@ -1,5 +1,5 @@
 {
-    "homepage": "https://Noemiegrau.github.io/Noemiegrau-portfolio",
+    "homepage": "https://noemiegrau.github.io/noemiegrau-portfolio/",
     "name": "portfolio",
     "version": "1.0.0",
     "description": "Noemie Grau Personal Portfolio",
@@ -31,7 +31,7 @@
         "react-pdf": "^5.4.1",
         "react-router-dom": "^5.1.2",
         "react-scripts": "3.2.0",
-        "react-scroll": "^1.7.16",
+        "react-scroll": "^1.8.4",
         "react-sticky-box": "^0.9.3",
         "react-visibility-sensor": "^5.1.1"
     },

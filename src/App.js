@@ -11,16 +11,29 @@ import WorksInside from './pages/WorksInside';
 import page404 from './pages/404';
 import UserInterface from './pages/UserInterface';
 
+
+// import Nav from './nav/Nav';
+// import NavProvider from './nav/NavContext';
+
+
 function App() {
     return (
-        <Router>
-            <Switch>
+
+        // <div className='appContainer'>
+		// 	<NavProvider>
+		// 		<Nav />
+		// 		<Home />
+		// 	</NavProvider>
+		// </div>
+
+<Router>
+    <Switch> 
                 <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/" }` }
                     component={ Home }
-                />
-                <Route
+                /> 
+                  <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/about" }` }
                     component={ About }
@@ -32,7 +45,7 @@ function App() {
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/contacts" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/contacts" }` } 
                     component={ Contacts }
                 />
                 <Route
@@ -55,7 +68,7 @@ function App() {
                     path={ `${ process.env.PUBLIC_URL + "/works" }` }
                     component={ Works }
                 />
-                <Route
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/ui" }` }
                     component={ UserInterface }
@@ -64,11 +77,13 @@ function App() {
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/works-inside" }` }
                     component={ WorksInside }
-                />
-                <Route exact component={ page404 }/>
-            </Switch>
-        </Router>
-    );
+                />   */}
+                 <Route exact component={ page404 }/> 
+             </Switch> 
+             </Router>
+
+);
+
 }
 
 export default App;

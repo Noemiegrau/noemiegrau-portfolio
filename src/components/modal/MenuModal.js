@@ -80,9 +80,16 @@ class MenuModal extends Component {
                                         <a title="Journal" href={ process.env.PUBLIC_URL + "/journal" }>Journal</a>
                                     </li>
 
-                                    <li className={ "menu-item" + ( window.location.pathname === '/contacts' ? " current-menu-item" : "" ) }>
-                                        <a title="Contacts" href={ process.env.PUBLIC_URL + "/contacts" }>Contacts</a>
+                                    {/* <li className={ "menu-item" + ( window.location.pathname === '/contacts' ? " current-menu-item" : "" ) }> */}
+                                        {/* <a title="Contacts" href={ process.env.PUBLIC_URL + "/contacts" }>Contacts</a> */}
+                                        {/* <a title="Contacts" href="#contactSection">Contacts</a> */}
+                                    {/* </li> */}
+
+                                    <li className="menu-item">
+                                        {/* <a title="Contacts" href={ process.env.PUBLIC_URL + "/contacts" }>Contacts</a> */}
+                                        <a title="Contacts" href="#contactSectionTest">Contacts</a>
                                     </li>
+
                                 </ul>
                             </nav>
                         </div>
