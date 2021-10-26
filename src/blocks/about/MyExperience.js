@@ -4,8 +4,7 @@ import ExperienceItemsData from '../../data/experience/experience';
 const MyExperience = () => {
     return (
         <div id="my-experience" className="block spacer p-top-xl">
-            <h2><span className="line">My experience</span></h2>
-
+            <h2 className=" transform-scale-h"><span className="line">My experience</span></h2>
             <div className="row gutter-width-lg with-pb-lg">
                 { ExperienceItemsData && ExperienceItemsData.map( ( item, key ) => {
                     return (

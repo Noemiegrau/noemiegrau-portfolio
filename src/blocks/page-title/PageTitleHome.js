@@ -8,7 +8,7 @@ const PageTitleHome = () => {
                 <div className="row">
                     <div className="col col-1 position-relative">
                         <div className="title">
-                            <h1 className="h">Hello<span className="dot">.</span></h1>
+                            <h1 id ="homehello" className="h">Hello<span className="dot">.</span></h1>
 
                             <div className="title-clone">Hello</div>
                         </div>

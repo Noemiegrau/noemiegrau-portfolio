@@ -17,9 +17,9 @@ const AboutContent = () => {
                 </div>
 
                 <div className="col align-self-center description">
-                    <h4>I am Noemie Grau</h4>
+                    <h4>My name is Noemie Grau</h4>
 
-                    <p>Full Stack Software Engineer with a <strong>Master's Degree in Operational and International Marketing</strong> from Paris Nanterre University and a <strong>Full Stack Web Development</strong> certificate from <strong>UCLA</strong> Extension.</p>
+                    <p>I am a french <strong>Full Stack Software Engineer</strong> with a <strong>Master's Degree in Operational and International Marketing</strong> from Paris Nanterre University and a <strong>Full Stack Web Development</strong> certificate from <strong>UCLA</strong> Extension.</p>
 
                     <p>Throughout my software training, I applied my analytical and organizational skills in building user-friendly applications with <strong>solid and comprehensive databases</strong> (using technologies such as <strong>JavaScript, React, MySQL, and MongoDB</strong>) and applied agile development principles coupled with version control, testing, code review, and collaborative coding.</p>
 

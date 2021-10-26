@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Modal } from 'react-bootstrap';
 import FooterMenu from '../../blocks/footer/FooterMenu';
 
+// import { Link } from 'react-scroll';
+import Scroll from 'react-scroll';
+const ScrollLink = Scroll.ScrollLink;
+
 class MenuModal extends Component {
     constructor( context ) {
         super( context );
@@ -80,9 +84,27 @@ class MenuModal extends Component {
                                         <a title="Journal" href={ process.env.PUBLIC_URL + "/journal" }>Journal</a>
                                     </li>
 
-                                    <li className={ "menu-item" + ( window.location.pathname === '/contacts' ? " current-menu-item" : "" ) }>
-                                        <a title="Contacts" href={ process.env.PUBLIC_URL + "/contacts" }>Contacts</a>
+                                    {/* <li className={ "menu-item" + ( window.location.pathname === '/contacts' ? " current-menu-item" : "" ) }>
+                                         <a title="Contacts" href={ process.env.PUBLIC_URL + "/contact" }>Contacts</a>  
+                                     </li> */}
+
+
+                                    <li>
+                                    <ScrollLink 
+                                            to="contacttry" 
+                                            spy={true} 
+                                            smooth={true} 
+                                            duration={500} 
+                                            className='some-class' 
+                                            activeClass='some-active-class'
+                                    >
+
+                                    Contacts
+
+                                     </ScrollLink>  
                                     </li>
+
+
                                 </ul>
                             </nav>
                         </div>

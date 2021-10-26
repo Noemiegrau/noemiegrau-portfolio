@@ -1,0 +1,116 @@
+header {
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#wrapperHeader {
+    width: 100%;
+}
+
+nav {
+	width: 100%;
+	/* position: fixed; */
+	/* z-index: 9999; */
+	top: 0;
+	padding: 1.2em 0;
+	color: black;
+	background-color: var(--darkAccent);
+	max-height: 4em;
+    overflow: hidden;
+}
+
+nav span {
+	font-size: 1.5em; 
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.2s ease;
+	transition-delay: 0.25s;
+	margin: 1em;
+	padding-bottom: 0.3em;
+}
+
+nav span:hover {
+	/* cursor: pointer;
+    background: #fed9ca;
+    position: relative;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 10px; */
+    /* content: ""; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* bottom: .56rem;
+    width: 100%;
+    height: 1.38rem;
+    z-index: -1; */
+    cursor: pointer;
+    background: linear-gradient(to right, white 50%, #fed9ca 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+nav span:hover i {
+	color: gold;
+}
+
+nav span.activeClass i {
+	color: gold;
+}
+
+nav span.activeClass {
+    background: #fed9ca;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+
+    nav span {
+        font-size: 16px; 
+    }
+
+
+  }
+
+    /* MEDIA QUERY FOR VERY SMALL SCREENS */
+    @media screen and (max-width: 450px) {
+
+        nav span {
+            font-size: 14px; 
+        }
+    
+    }
+
+        /* MEDIA QUERY FOR VERY SMALL SCREENS */
+        @media screen and (max-width: 410px) {
+
+            nav span {
+                font-size: 14px; 
+            }
+        
+        }
+
+        /* MEDIA QUERY FOR VERY SMALL SCREENS */
+        @media screen and (max-width: 400px) {
+
+            nav span {
+                font-size: 12px; 
+            }
+        
+        }
+
+        /* MEDIA QUERY FOR VERY SMALL SCREENS */
+        @media screen and (max-width: 360px) {
+
+            nav span {
+                font-size: 10px; 
+            }
+        
+        }
