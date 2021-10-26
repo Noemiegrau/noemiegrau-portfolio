@@ -23,7 +23,7 @@ nav {
 }
 
 nav span {
-	font-size: 18px; 
+	font-size: 1.5em; 
 	border-bottom: 1px solid transparent;
 	transition: border-bottom 0.2s ease;
 	transition-delay: 0.25s;
@@ -67,3 +67,50 @@ nav span.activeClass {
     border-radius: 10px;
     padding: 4px;
 }
+
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+
+    nav span {
+        font-size: 16px; 
+    }
+
+
+  }
+
+    /* MEDIA QUERY FOR VERY SMALL SCREENS */
+    @media screen and (max-width: 450px) {
+
+        nav span {
+            font-size: 14px; 
+        }
+    
+    }
+
+        /* MEDIA QUERY FOR VERY SMALL SCREENS */
+        @media screen and (max-width: 410px) {
+
+            nav span {
+                font-size: 14px; 
+            }
+        
+        }
+
+        /* MEDIA QUERY FOR VERY SMALL SCREENS */
+        @media screen and (max-width: 400px) {
+
+            nav span {
+                font-size: 12px; 
+            }
+        
+        }
+
+        /* MEDIA QUERY FOR VERY SMALL SCREENS */
+        @media screen and (max-width: 360px) {
+
+            nav span {
+                font-size: 10px; 
+            }
+        
+        }
