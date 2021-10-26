@@ -19,17 +19,44 @@ import NavProvider from './nav/NavContext';
 function App() {
     return (
         <section>
+            
             <Router>
                 <NavProvider>
-                    <Home />
+
+                <Switch>
+                {/* <Home /> */}
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/" }` }
+                    component={ Home }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/home" }` }
+                    component={ Home }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/yellow" }` }
+                    component={ Journal }
+                /> 
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-inside" }` }
+                    component={ WorksInside }
+                />
+                <Route exact component={ page404 }/>
+                </Switch>
+
+
                 </NavProvider>
             </Router>
+
         </section>
 
 );
 
 }
-
 
 
 

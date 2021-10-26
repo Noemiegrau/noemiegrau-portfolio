@@ -1,74 +1,98 @@
 [
     {
         "id": "1",
-        "title": "Leaf photography",
-        "category": "gallery-item-visible product",
+        "title": "Chelcie Fans",
+        "category": "gallery-item-visible mern fullstack",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
-        "button": "Look inside"
+        "imgLink": "assets/img/placeholder/chelciefans.png",
+        "button": "Learn more"
     },
     {
         "id": "2",
-        "title": "Glasses photography",
-        "category": "gallery-item-visible culture personal portrait",
+        "title": "Run Buddy",
+        "category": "gallery-item-visible frontend",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
-        "button": "Look inside"
+        "imgLink": "assets/img/placeholder/runbuddy.png",
+        "button": "Learn more"
     },
     {
         "id": "3",
-        "title": "Painting photography",
-        "category": "gallery-item-visible product",
+        "title": "Food Forward",
+        "category": "gallery-item-visible fullstack sql",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
-        "button": "Look inside"
+        "imgLink": "assets/img/placeholder/foodforward.png",
+        "button": "Learn more"
     },
     {
         "id": "4",
-        "title": "Plant photography",
-        "category": "gallery-item-visible culture",
+        "title": "Pawpals",
+        "category": "gallery-item-visible frontend",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
-        "button": "Look inside"
+        "imgLink": "assets/img/placeholder/pawpals.png",
+        "button": "Learn more"
     },
     {
         "id": "5",
-        "title": "Phone photography",
-        "category": "culture",
+        "title": "Password Generator",
+        "category": "frontend",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
-        "button": "Look inside"
+        "imgLink": "assets/img/placeholder/passwordgen.png",
+        "button": "Learn more"
     },
     {
         "id": "6",
-        "title": "Composition photography",
-        "category": "product",
+        "title": "Coding Quiz",
+        "category": "frontend",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
-        "button": "Look inside"
+        "imgLink": "assets/img/placeholder/codingquiz.png",
+        "button": "Learn more"
     },
     {
         "id": "7",
-        "title": "Laptop photography",
-        "category": "culture personal",
+        "title": "Shop Shop",
+        "category": "mern fullstack",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
-        "button": "Look inside"
+        "imgLink": "assets/img/placeholder/shopshop.png",
+        "button": "Learn more"
     },
     {
         "id": "8",
-        "title": "Notebook photography",
-        "category": "product",
+        "title": "Book Search Engine",
+        "category": "mern fullstack",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
-        "button": "Look inside"
+        "imgLink": "assets/img/placeholder/booksearch.png",
+        "button": "Learn more"
     },
     {
         "id": "9",
-        "title": "Book photography",
-        "category": "art product",
+        "title": "Pizza Hunt",
+        "category": "fullstack",
         "link": "/works-inside",
-        "imgLink": "assets/img/placeholder/637x637.jpg",
-        "button": "Look inside"
+        "imgLink": "assets/img/placeholder/pizzahunt.png",
+        "button": "Learn more"
+    },
+    {
+        "id": "10",
+        "title": "Taskmaster Pro",
+        "category": "frontend",
+        "link": "/works-inside",
+        "imgLink": "assets/img/placeholder/taskmaster.png",
+        "button": "Learn more"
+    },
+    {
+        "id": "11",
+        "title": "Team Profile Generator",
+        "category": "backend",
+        "link": "/works-inside",
+        "imgLink": "assets/img/placeholder/teamprofile.png",
+        "button": "Learn more"
+    },
+    {
+        "id": "12",
+        "title": "Weather Dashboard",
+        "category": "frontend",
+        "link": "/works-inside",
+        "imgLink": "assets/img/placeholder/weatherdash.png",
+        "button": "Learn more"
     }
 ]

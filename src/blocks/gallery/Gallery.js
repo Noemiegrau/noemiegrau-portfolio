@@ -5,6 +5,9 @@ import PropTypes from 'prop-types';
 import GalleryMenuData from '../../data/gallery/galleryMenu';
 import GalleryItemsData from '../../data/gallery/galleryItems';
 
+let imgtestchelcie = require("./img/chelciefans.png");
+let alttestchelcie = "project named chelcie fans";
+
 class Gallery extends Component {
     constructor( props ) {
         super( props );
@@ -69,20 +72,21 @@ class Gallery extends Component {
         const listCount = this.state.list.length - 1;
 
         return (
-            <div className="gallery">
+
+                <div className="gallery">
                 <div className="wrapper">
                     <ul className="gallery-filter list-unstyled no-space">
                         { this.state.list.map( ( item, key ) => (
                             <React.Fragment key={ key }>
                                 <li>
                                     <a href="#my-works"
-                                       title={ item.title }
-                                       className={ "btn btn-link transform-scale-h click" + ( key === this.state.selected ? ' active' : '' ) }
-                                       data-filter={ item.filter }
-                                       onClick={ ( event ) => {
-                                           this.onFilterChange( item.filter );
-                                           this.handleClick( key, event )
-                                       } }>
+                                    title={ item.title }
+                                    className={ "btn btn-link transform-scale-h click" + ( key === this.state.selected ? ' active' : '' ) }
+                                    data-filter={ item.filter }
+                                    onClick={ ( event ) => {
+                                        this.onFilterChange( item.filter );
+                                        this.handleClick( key, event )
+                                    } }>
                                         { item.title }
                                     </a>
                                 </li>
@@ -104,7 +108,8 @@ class Gallery extends Component {
                                 <a key={ key } title={ item.title } className={ "gallery-item active " + item.category } href={ process.env.PUBLIC_URL + item.link }>
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src={ item.imgLink } alt={ item.title } />
+                                        {/* <img src={require("./img/chelciefans.png")} alt="test" /> */}
+                                        <img src={item.imgLink} alt={alttestchelcie} />
                                         </div>
                                     </div>
 
@@ -124,14 +129,15 @@ class Gallery extends Component {
                     </div>
                 </div>
 
-                { this.props.seeMore ?
-                    <div className="text-center no-space">
-                        <a title="See more" className="btn btn-link border-0 p-0 transform-scale-h" href={ process.env.PUBLIC_URL + "/works" }>See more<i className="icon-c icon-arrow-right" /></a>
-                    </div>
-                    : ""
-                }
-            </div>
-        );
+{/* { this.props.seeMore ? */}
+    <div className="text-center no-space">
+        <a title="See more" className="btn btn-link border-0 p-0 transform-scale-h" target="_blank" href="https://github.com/Noemiegrau">See more projects on my GitHub profile <i className="icon-c icon-arrow-right" /></a>
+    </div>
+    {/* : "" */}
+{/* } */}
+</div>
+            
+       );
     }
 }
 
@@ -141,3 +147,59 @@ Gallery.propTypes = {
 };
 
 export default Gallery;
+
+
+//  <div className="gallery">
+// <div className="wrapper">
+//     <ul className="gallery-filter list-unstyled no-space">
+//         { this.state.list.map( ( item, key ) => (
+//             <React.Fragment key={ key }>
+//                 <li>
+//                     <a href="#my-works"
+//                        title={ item.title }
+//                        className={ "btn btn-link transform-scale-h click" + ( key === this.state.selected ? ' active' : '' ) }
+//                        data-filter={ item.filter }
+//                        onClick={ ( event ) => {
+//                            this.onFilterChange( item.filter );
+//                            this.handleClick( key, event )
+//                        } }>
+//                         { item.title }
+//                     </a>
+//                 </li>
+
+//                 { key !== listCount ?
+//                     <li>
+//                         <span className="btn btn-link">-</span>
+//                     </li>
+//                     : ""
+//                 }
+//             </React.Fragment>
+//         ) ) }
+//     </ul>
+// </div>
+// <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
+//     <div className="gallery-items" ref={ ( c ) => this.grid = c }>
+//         { GalleryItemsData && GalleryItemsData.map( ( item, key ) => {
+//             return (
+//                 <a key={ key } title={ item.title } className={ "gallery-item active " + item.category } href={ process.env.PUBLIC_URL + item.link }>
+//                     <div className="img object-fit">
+//                         <div className="object-fit-cover">
+//                         <img src={require("./img/chelciefans.png")} alt="test" />
+//                         </div>
+//                     </div>
+
+//                     <div className="gallery-hover">
+//                         <div className="gallery-hover-wrapper">
+//                             <h3>{ item.title }</h3>
+
+//                             <span className="btn btn-link border-0 transform-scale-h p-0">
+//                                 { item.button }
+//                                 <i className="icon-c icon-arrow-right" />
+//                             </span>
+//                         </div>
+//                     </div>
+//                 </a>
+//             );
+//         } ) }
+//     </div>
+// </div>

@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
 import Loading from '../blocks/loading/Loading';
-import Header from '../blocks/header/Header';
+import HeaderWork from '../blocks/header-work/HeaderWork';
 import Footer from '../blocks/footer/Footer';
 
 const WorksInside = () => {
@@ -14,7 +14,7 @@ const WorksInside = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>Works Inside | Oxer - Minimal Portfolio React Template</title>
+                <title>Works Inside</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,7 +28,7 @@ const WorksInside = () => {
 
             <Loading />
 
-            <Header />
+            <HeaderWork />
 
             <main id="main" className="site-main bg-half-ring-right bg-half-ring-top">
                 <section id="page-content">

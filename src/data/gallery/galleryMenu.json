@@ -6,22 +6,27 @@
     },
     {
         "id": "2",
-        "title": "Art & Culture",
-        "filter": "culture"
+        "title": "MERN",
+        "filter": "mern"
     },
     {
         "id": "3",
-        "title": "Product",
-        "filter": "product"
+        "title": "SQL",
+        "filter": "sql"
     },
     {
         "id": "4",
-        "title": "Personal",
-        "filter": "personal"
+        "title": "Full Stack",
+        "filter": "fullstack"
     },
     {
         "id": "5",
-        "title": "Portrait",
-        "filter": "portrait"
+        "title": "Back End",
+        "filter": "backend"
+    },
+    {
+        "id": "6",
+        "title": "Front End",
+        "filter": "frontend"
     }
 ]
