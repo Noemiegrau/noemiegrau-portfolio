@@ -3,96 +3,108 @@
         "id": "1",
         "title": "Chelcie Fans",
         "category": "gallery-item-visible mern fullstack",
-        "link": "/works-inside",
+        "link": "/works-chelciefans",
         "imgLink": "assets/img/placeholder/chelciefans.png",
+        "alt": "project named 'Chelcie Fans'",
         "button": "Learn more"
     },
     {
         "id": "2",
         "title": "Run Buddy",
         "category": "gallery-item-visible frontend",
-        "link": "/works-inside",
+        "link": "/works-runbuddy",
         "imgLink": "assets/img/placeholder/runbuddy.png",
+        "alt": "project named 'Run Buddy'",
         "button": "Learn more"
     },
     {
         "id": "3",
         "title": "Food Forward",
         "category": "gallery-item-visible fullstack sql",
-        "link": "/works-inside",
+        "link": "/works-foodforward",
         "imgLink": "assets/img/placeholder/foodforward.png",
+        "alt": "project named 'Food Forward'",
         "button": "Learn more"
     },
     {
         "id": "4",
         "title": "Pawpals",
         "category": "gallery-item-visible frontend",
-        "link": "/works-inside",
+        "link": "/works-pawpals",
         "imgLink": "assets/img/placeholder/pawpals.png",
+        "alt": "project named 'Pawpals'",
         "button": "Learn more"
     },
     {
         "id": "5",
         "title": "Password Generator",
         "category": "frontend",
-        "link": "/works-inside",
+        "link": "/works-passwordgenerator",
         "imgLink": "assets/img/placeholder/passwordgen.png",
+        "alt": "project named 'Password Generator'",
         "button": "Learn more"
     },
     {
         "id": "6",
         "title": "Coding Quiz",
         "category": "frontend",
-        "link": "/works-inside",
+        "link": "/works-codingquiz",
         "imgLink": "assets/img/placeholder/codingquiz.png",
+        "alt": "project named 'Coding Quiz'",
         "button": "Learn more"
     },
     {
         "id": "7",
         "title": "Shop Shop",
         "category": "mern fullstack",
-        "link": "/works-inside",
+        "link": "/works-shopshop",
         "imgLink": "assets/img/placeholder/shopshop.png",
+        "alt": "project named 'Shop Shop'",
         "button": "Learn more"
     },
     {
         "id": "8",
         "title": "Book Search Engine",
         "category": "mern fullstack",
-        "link": "/works-inside",
+        "link": "/works-booksearchengine",
         "imgLink": "assets/img/placeholder/booksearch.png",
+        "alt": "project named 'Book Search Engine'",
         "button": "Learn more"
     },
     {
         "id": "9",
         "title": "Pizza Hunt",
         "category": "fullstack",
-        "link": "/works-inside",
+        "link": "/works-pizzahunt",
         "imgLink": "assets/img/placeholder/pizzahunt.png",
+        "alt": "project named 'Pizza Hunt'",
         "button": "Learn more"
     },
     {
         "id": "10",
         "title": "Taskmaster Pro",
         "category": "frontend",
-        "link": "/works-inside",
+        "link": "/works-taskmasterpro",
         "imgLink": "assets/img/placeholder/taskmaster.png",
+        "alt": "project named 'Taskmaster Pro'",
         "button": "Learn more"
     },
     {
         "id": "11",
         "title": "Team Profile Generator",
         "category": "backend",
-        "link": "/works-inside",
+        "link": "/works-teamprofilegenerator",
         "imgLink": "assets/img/placeholder/teamprofile.png",
+        "alt": "project named 'Team Profile Generator'",
         "button": "Learn more"
     },
     {
         "id": "12",
         "title": "Weather Dashboard",
         "category": "frontend",
-        "link": "/works-inside",
+        "link": "/works-weatherdashboard",
         "imgLink": "assets/img/placeholder/weatherdash.png",
+        "alt": "project named 'Weather Dashboard'",
         "button": "Learn more"
     }
 ]

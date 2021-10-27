@@ -5,9 +5,6 @@ import PropTypes from 'prop-types';
 import GalleryMenuData from '../../data/gallery/galleryMenu';
 import GalleryItemsData from '../../data/gallery/galleryItems';
 
-let imgtestchelcie = require("./img/chelciefans.png");
-let alttestchelcie = "project named chelcie fans";
-
 class Gallery extends Component {
     constructor( props ) {
         super( props );
@@ -109,7 +106,7 @@ class Gallery extends Component {
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
                                         {/* <img src={require("./img/chelciefans.png")} alt="test" /> */}
-                                        <img src={item.imgLink} alt={alttestchelcie} />
+                                        <img src={item.imgLink} alt={item.alt} />
                                         </div>
                                     </div>
 

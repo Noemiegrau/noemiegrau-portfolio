@@ -1,19 +1,31 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
-import Contacts from './pages/Contacts';
 import Journal from './pages/Journal';
-import JournalSinglePost from './pages/JournalSinglePost';
-import SearchResults from './pages/SearchResults';
-import Works from './pages/Works';
-import WorksInside from './pages/WorksInside';
 import page404 from './pages/404';
-import UserInterface from './pages/UserInterface';
+import WorksChelcieFans from './pages/WorksChelcieFans';
+import WorksRunBuddy from './pages/WorksRunBuddy';
+import WorksFoodForward from './pages/WorksFoodForward';
+import WorksPawpals from './pages/WorksPawpals';
+import WorksPasswordGenerator from './pages/WorksPasswordGenerator';
+import WorksCodingQuiz from './pages/WorksCodingQuiz';
+import WorksShopShop from './pages/WorksShopShop';
+import WorksBookSearchEngine from './pages/WorksBookSearchEngine';
+import WorksPizzaHunt from './pages/WorksPizzaHunt';
+import WorksTaskMasterPro from './pages/WorksTaskMasterPro';
+import WorksTeamProfileGenerator from './pages/WorksTeamProfileGenerator';
+import WorksWeatherDashboard from './pages/WorksWeatherDashboard';
 
-import Nav from './nav/Nav';
 import NavProvider from './nav/NavContext';
 
+// import About from './pages/About';
+// import Contacts from './pages/Contacts';
+// import JournalSinglePost from './pages/JournalSinglePost';
+// import SearchResults from './pages/SearchResults';
+// import Works from './pages/Works';
+// import WorksInside from './pages/WorksInside';
+// import UserInterface from './pages/UserInterface';
+// import Nav from './nav/Nav';
 
 
 function App() {
@@ -42,8 +54,63 @@ function App() {
                 /> 
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-inside" }` }
-                    component={ WorksInside }
+                    path={ `${ process.env.PUBLIC_URL + "/works-chelciefans" }` }
+                    component={ WorksChelcieFans }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-runbuddy" }` }
+                    component={ WorksRunBuddy }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-foodforward" }` }
+                    component={ WorksFoodForward }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-pawpals" }` }
+                    component={ WorksPawpals }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-passwordgenerator" }` }
+                    component={ WorksPasswordGenerator }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-codingquiz" }` }
+                    component={ WorksCodingQuiz }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-shopshop" }` }
+                    component={ WorksShopShop }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-booksearchengine" }` }
+                    component={ WorksBookSearchEngine }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-pizzahunt" }` }
+                    component={ WorksPizzaHunt }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-taskmasterpro" }` }
+                    component={ WorksTaskMasterPro }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-teamprofilegenerator" }` }
+                    component={ WorksTeamProfileGenerator }
+                />
+                <Route
+                    exact
+                    path={ `${ process.env.PUBLIC_URL + "/works-weatherdashboard" }` }
+                    component={ WorksWeatherDashboard }
                 />
                 <Route exact component={ page404 }/>
                 </Switch>
