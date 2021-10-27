@@ -1,6 +1,6 @@
 import React from 'react';
 import Copyright from '../footer/Copyright';
-import FooterMenu from '../footer/FooterMenu';
+// import FooterMenu from '../footer/FooterMenu';
 
 const Footer = () => {
     return (
@@ -11,11 +11,11 @@ const Footer = () => {
                         <Copyright />
                     </div>
 
-                    <div className="col-xl-8 col-lg-8 align-self-center">
+                    {/* <div className="col-xl-8 col-lg-8 align-self-center">
                         <div className="menu float-xl-right float-lg-right">
                             <FooterMenu />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </footer>

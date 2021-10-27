@@ -56,28 +56,65 @@ const WorksChelcieFans = () => {
                                 </div>
 
                                 <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                                    <p className="date">
+                                    {/* <p className="date">
                                         <span className="large">25</span> May, 2020
-                                    </p>
+                                    </p> */}
 
                                     <h1 className="small">Chelcie Fans</h1>
 
                                     <div className="description">
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
 
-                                        <h5>Idea</h5>
+                                        <p>This <strong>MERN app</strong> is a fan page website where users can create an account, post their thoughts for others to see, interact with other users through these posts, be friends with each other and comment on posts. This application also uses front-end routing, api requests (queries and mutations) and user authentication.
+</p>
 
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
-
-                                        <h5>Product features</h5>
+                                        <h5>Tools</h5>
 
                                         <ul>
-                                            <li>At vero eos et accusamus</li>
-                                            <li>At vero eos et accusamus</li>
-                                            <li>At vero eos et accusamus</li>
-                                            <li>At vero eos et accusamus</li>
+                                            <li>HTML5, CSS3, Javascript</li>
+                                            <li>MERN stack (MongoDB, Mongoose, Expressjs, REACT, Nodejs)</li>
+                                            <li>GraphQl, Apollo, JsonWebToken</li>
+                                            <li>Heroku, and more</li>
                                         </ul>
+
+                                        <h5>Links</h5>
+
+                                        <ul>
+
+                                    <div className="list-group list-group-horizontal-sm">
+                                        <div className="list-group-item transform-scale-h">
+                                            <h4><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                            </svg>  <a href="https://secret-hollows-41476.herokuapp.com/" target="_blank">See Deployed App</a></h4>
+
+                                            {/* <p>Los Angeles, CA, USA</p> */}
+                                        </div>
+
+                                        <div className="list-group-item transform-scale-h">
+                                            <h4><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                            </svg>  <a href="https://github.com/simmonsW/chelcie-fans" target="_blank">See GitHub</a></h4>
+
+                                            {/* <p><a title="719-338-4628" href="tel:719-338-4628">213-458-1815</a></p> */}
+                                        </div>
                                     </div>
+
+
+                                        </ul>
+
+                                    </div>
+
+                                    <br /><br /> <p>
+
+📖 
+📌
+🛠️ 
+🤝
+
+🔗 Links:
+GitHub repository: https://github.com/simmonsW/chelcie-fans
+Deployed App: https://secret-hollows-41476.herokuapp.com/ </p>
+
+
                                 </div>
                             </div>
                         </div>
