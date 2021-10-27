@@ -81,6 +81,15 @@
         "button": "Learn more"
     },
     {
+        "id": "9",
+        "title": "Pizza Hunt",
+        "category": "fullstack",
+        "link": "/works-pizzahunt",
+        "imgLink": "assets/img/placeholder/pizzahunt.png",
+        "alt": "project named 'Pizza Hunt'",
+        "button": "Learn more"
+    },
+    {
         "id": "10",
         "title": "Taskmaster Pro",
         "category": "frontend",
@@ -91,15 +100,6 @@
     },
     {
         "id": "11",
-        "title": "Team Profile Generator",
-        "category": "backend",
-        "link": "/works-teamprofilegenerator",
-        "imgLink": "assets/img/placeholder/teamprofile.png",
-        "alt": "project named 'Team Profile Generator'",
-        "button": "Learn more"
-    },
-    {
-        "id": "12",
         "title": "Weather Dashboard",
         "category": "frontend",
         "link": "/works-weatherdashboard",
