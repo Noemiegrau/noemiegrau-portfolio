@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
+import PageTitleAbout from '../blocks/page-title/PageTitleAbout';
+import AboutContent from '../blocks/about/AboutContent';
+import Awards from '../blocks/about/Awards';
+
 // import Loading from '../blocks/loading/Loading';
 // import Header from '../blocks/header/Header';
 // import Footer from '../blocks/footer/Footer';
-
-import PageTitleAbout from '../blocks/page-title/PageTitleAbout';
-import AboutContent from '../blocks/about/AboutContent';
-import MyExperience from '../blocks/about/MyExperience';
-import Awards from '../blocks/about/Awards';
+// import MyExperience from '../blocks/about/MyExperience';
 
 const About = () => {
     document.body.classList.add( 'page' );
@@ -42,7 +42,7 @@ const About = () => {
                     <div className="wrapper">
                         <AboutContent />
 
-                        <MyExperience />
+                        {/* <MyExperience /> */}
 
                         <Awards />
                     </div>

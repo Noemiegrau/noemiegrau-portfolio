@@ -3,21 +3,21 @@ import React from 'react';
 const AboutContent = () => {
     return (
         <div id="about" className="block">
-            <h2>
+            {/* <h2>
                 <span className="line">A passionate</span> Software Engineer.
-            </h2>
+            </h2> */}
 
             <div className="row bg-half-ring-left gutter-width-lg">
                 <div className="col align-self-top pl-0">
                     <div className="img object-fit">
                         <div className="object-fit-cover">
-                            <img src="assets/img/placeholder/527x600.jpg" alt="Luca Reynolds" className="img-fluid" />
+                            <img src="assets/img/logo/linked in profile picture.jpeg" className="img-fluid" alt="Noemie Grau" />
                         </div>
                     </div>
                 </div>
 
                 <div className="col align-self-center description">
-                    <h4>My name is Noemie Grau</h4>
+                    {/* <h4>My name is Noemie Grau</h4> */}
 
                     <p>I am a french <strong>Full Stack Software Engineer</strong> with a <strong>Master's Degree in Operational and International Marketing</strong> from Paris Nanterre University and a <strong>Full Stack Web Development</strong> certificate from <strong>UCLA</strong> Extension.</p>
 

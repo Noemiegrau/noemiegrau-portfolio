@@ -18,7 +18,7 @@ const page404 = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>404 | Oxer - Minimal Portfolio React Template</title>
+                <title>404</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -43,7 +43,7 @@ const page404 = () => {
 
                         <div className="spacer p-top-xs d-xl-flex d-lg-flex d-md-flex justify-content-between block m-top-extrasmall">
                             <div className="align-self-center w-50">
-                                <SearchForm />
+                                {/* <SearchForm /> */}
                             </div>
 
                             <BackToHome />

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './loading.css';
 
 class Loading extends Component {
     performTimeConsumingTask = async () => {
@@ -39,7 +40,13 @@ class Loading extends Component {
                     <div className="d-flex justify-content-center align-items-center h-100">
                         <div className="loading-content">
                             <div className="logo logo-secondary">
-                                <img className="animated zoomin" src="assets/img/logo/logo-2.svg" alt="Logo" />
+                                {/* <img height="400" width="600" className="animated zoomin" src="assets/img/logo/loading 2.gif" alt="Loading sign" /> */}
+                                {/* Three Quarter Spinner */}
+
+                            <div class="spinner-box">
+                                <div class="three-quarter-spinner"></div>
+                            </div>
+
                             </div>
                         </div>
                     </div>
