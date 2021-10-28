@@ -109,3 +109,15 @@ const WorksPizzaHunt = () => {
 };
 
 export default WorksPizzaHunt;
+
+
+// GALLERY ITEM DATA FOR PIZZA HUNT
+    // {
+    //     "id": "9",
+    //     "title": "Pizza Hunt",
+    //     "category": "fullstack",
+    //     "link": "/works-pizzahunt",
+    //     "imgLink": "assets/img/placeholder/pizzahunt.png",
+    //     "alt": "project named 'Pizza Hunt'",
+    //     "button": "Learn more"
+    // },

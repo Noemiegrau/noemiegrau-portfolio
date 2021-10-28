@@ -73,24 +73,6 @@
     },
     {
         "id": "9",
-        "title": "Pizza Hunt",
-        "category": "fullstack",
-        "link": "/works-pizzahunt",
-        "imgLink": "assets/img/placeholder/pizzahunt.png",
-        "alt": "project named 'Pizza Hunt'",
-        "button": "Learn more"
-    },
-    {
-        "id": "9",
-        "title": "Pizza Hunt",
-        "category": "fullstack",
-        "link": "/works-pizzahunt",
-        "imgLink": "assets/img/placeholder/pizzahunt.png",
-        "alt": "project named 'Pizza Hunt'",
-        "button": "Learn more"
-    },
-    {
-        "id": "10",
         "title": "Taskmaster Pro",
         "category": "frontend",
         "link": "/works-taskmasterpro",
@@ -99,7 +81,16 @@
         "button": "Learn more"
     },
     {
-        "id": "11",
+        "id": "9",
+        "title": "Taskmaster Pro",
+        "category": "frontend",
+        "link": "/works-taskmasterpro",
+        "imgLink": "assets/img/placeholder/taskmaster.png",
+        "alt": "project named 'Taskmaster Pro'",
+        "button": "Learn more"
+    },
+    {
+        "id": "10",
         "title": "Weather Dashboard",
         "category": "frontend",
         "link": "/works-weatherdashboard",
