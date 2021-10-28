@@ -38,19 +38,19 @@ const WorksChelcieFans = () => {
                                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/works-inside/chelciefans.png" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/chelciefans.png" alt="Chelcie Fans Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/works-inside/chelciefans2.png" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/chelciefans2.png" alt="Chelcie Fans Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/works-inside/chelciefans3.png" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/chelciefans3.png" alt="Chelcie Fans Project" />
                                         </div>
                                     </div>
                                 </div>
@@ -75,6 +75,14 @@ const WorksChelcieFans = () => {
                                             <li>GraphQl, Apollo, JsonWebToken</li>
                                             <li>Heroku, and more</li>
                                         </ul>
+
+                                        <h5>Sample account</h5>
+
+                                        <p>Create an account to try the application or use this sample account to log in:</p>
+
+                                        <p><strong>Username:</strong> Mary <br />
+                                        <strong>Email:</strong> maryjones@test.com <br />
+                                        <strong>Password:</strong> mypassword123</p>
 
                                         <h5>Links</h5>
 

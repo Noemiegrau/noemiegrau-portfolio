@@ -38,19 +38,19 @@ const WorksFoodForward = () => {
                                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/foodforward.png" alt="Food Forward Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/foodforward2.png" alt="Food Forward Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/foodforward3.png" alt="Food Forward Project" />
                                         </div>
                                     </div>
                                 </div>
@@ -74,6 +74,16 @@ const WorksFoodForward = () => {
                                             <li>Handlebarsjs, JawsDB, Nodemailer</li>
                                             <li>Heroku, and more</li>
                                         </ul>
+
+                                        <h5>Sample account</h5>
+
+                                        <p>Create an account to try the application or use this sample account to log in:</p>
+
+                                        <p><strong>First Name:</strong> Mary <br />
+                                        <strong>Last Name:</strong> Jones <br />
+                                        <strong>Employee Number:</strong> 024 <br />
+                                        <strong>Email:</strong> maryjones@test.com <br />
+                                        <strong>Password:</strong> mypassword123</p>
 
                                         <h5>Links</h5>
 

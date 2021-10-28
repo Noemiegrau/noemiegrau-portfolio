@@ -38,19 +38,19 @@ const WorksCodingQuiz = () => {
                                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/codingquiz.png" alt="Coding Quiz Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/codingquiz2.png" alt="Coding Quiz Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/codingquiz3.png" alt="Coding Quiz Project" />
                                         </div>
                                     </div>
                                 </div>

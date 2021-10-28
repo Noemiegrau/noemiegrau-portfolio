@@ -38,21 +38,21 @@ const WorksPasswordGenerator = () => {
                                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/passwordgenerator.png" alt="Password Generator Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/passwordgenerator2.png" alt="Password Generator Project" />
                                         </div>
                                     </div>
 
-                                    <div className="img object-fit">
+                                    {/* <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/passwordgenerator3.png" alt="Password Generator Project" />
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
 
                                 <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12">

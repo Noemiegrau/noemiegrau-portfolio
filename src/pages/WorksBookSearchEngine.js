@@ -38,19 +38,19 @@ const WorksBookSearchEngine = () => {
                                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/booksearch.png" alt="Book Search Engine Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/booksearch2.png" alt="Book Search Engine Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/booksearch3.png" alt="Book Search Engine Project" />
                                         </div>
                                     </div>
                                 </div>
@@ -75,6 +75,14 @@ const WorksBookSearchEngine = () => {
                                             <li>GraphQl, Apollo, JsonWebToken, Path</li>
                                             <li>Heroku, and more</li>
                                         </ul>
+
+                                        <h5>Sample account</h5>
+
+                                        <p>Create an account to try the application or use this sample account to log in:</p>
+
+                                        <p><strong>Username:</strong> Mary <br />
+                                        <strong>Email:</strong> maryjones@test.com <br />
+                                        <strong>Password:</strong> mypassword123</p>
 
                                         <h5>Links</h5>
 

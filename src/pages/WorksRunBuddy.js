@@ -38,19 +38,19 @@ const WorksRunBuddy = () => {
                                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/runbuddy.png" alt="Run Buddy Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/runbuddy2.png" alt="Run Buddy Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/runbuddy3.png" alt="Run Buddy Project" />
                                         </div>
                                     </div>
                                 </div>

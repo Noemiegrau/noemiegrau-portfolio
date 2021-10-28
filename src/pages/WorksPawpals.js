@@ -38,21 +38,21 @@ const WorksPawpals = () => {
                                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/pawpalsss.png" alt="Pawpals Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/pawpals2.png" alt="Pawpals Project" />
                                         </div>
                                     </div>
 
-                                    <div className="img object-fit">
+                                    {/* <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/pawpals3.png" alt="Pawpals Project" />
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
 
                                 <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12">

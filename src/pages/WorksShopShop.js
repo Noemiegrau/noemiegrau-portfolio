@@ -38,19 +38,19 @@ const WorksShopShop = () => {
                                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/shopshop.png" alt="Shop Shop Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/shopshop2.png" alt="Shop Shop Project" />
                                         </div>
                                     </div>
 
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                            <img src="assets/img/placeholder/966x560.jpg" alt="Product photography" />
+                                            <img src="assets/img/placeholder/works-inside/shopshop3.png" alt="Shop Shop Project" />
                                         </div>
                                     </div>
                                 </div>
@@ -73,8 +73,17 @@ const WorksShopShop = () => {
                                             <li>HTML5, CSS3, Javascript</li>
                                             <li><strong>MERN stack</strong> (MongoDB, Mongoose, Expressjs, REACT, Nodejs)</li>
                                             <li>GraphQl, Apollo, JsonWebToken</li>
-                                            <li>Heroku, and more</li>
+                                            <li>Heroku, STRIPE and more</li>
                                         </ul>
+
+                                        <h5>Sample account</h5>
+
+                                        <p>Create an account to try the application or use this sample account to log in:</p>
+
+                                        <p><strong>First Name:</strong> Mary <br />
+                                        <strong>Last Name:</strong> Jones <br />
+                                        <strong>Email:</strong> maryjones@test.com <br />
+                                        <strong>Password:</strong> mypassword123</p>
 
                                         <h5>Links</h5>
 

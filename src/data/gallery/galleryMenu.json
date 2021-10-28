@@ -21,11 +21,6 @@
     },
     {
         "id": "5",
-        "title": "Back End",
-        "filter": "backend"
-    },
-    {
-        "id": "6",
         "title": "Front End",
         "filter": "frontend"
     }
