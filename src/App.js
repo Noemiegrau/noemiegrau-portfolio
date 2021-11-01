@@ -1,22 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Journal from './pages/Journal';
-import page404 from './pages/404';
-import WorksChelcieFans from './pages/WorksChelcieFans';
-import WorksRunBuddy from './pages/WorksRunBuddy';
-import WorksFoodForward from './pages/WorksFoodForward';
-import WorksPawpals from './pages/WorksPawpals';
-import WorksPasswordGenerator from './pages/WorksPasswordGenerator';
-import WorksCodingQuiz from './pages/WorksCodingQuiz';
-import WorksShopShop from './pages/WorksShopShop';
-import WorksBookSearchEngine from './pages/WorksBookSearchEngine';
-import WorksPizzaHunt from './pages/WorksPizzaHunt';
-import WorksTaskMasterPro from './pages/WorksTaskMasterPro';
-import WorksTeamProfileGenerator from './pages/WorksTeamProfileGenerator';
-import WorksWeatherDashboard from './pages/WorksWeatherDashboard';
+// import Journal from './pages/Journal';
+// import page404 from './pages/404';
+// import WorksChelcieFans from './pages/WorksChelcieFans';
+// import WorksRunBuddy from './pages/WorksRunBuddy';
+// import WorksFoodForward from './pages/WorksFoodForward';
+// import WorksPawpals from './pages/WorksPawpals';
+// import WorksPasswordGenerator from './pages/WorksPasswordGenerator';
+// import WorksCodingQuiz from './pages/WorksCodingQuiz';
+// import WorksShopShop from './pages/WorksShopShop';
+// import WorksBookSearchEngine from './pages/WorksBookSearchEngine';
+// import WorksPizzaHunt from './pages/WorksPizzaHunt';
+// import WorksTaskMasterPro from './pages/WorksTaskMasterPro';
+// import WorksTeamProfileGenerator from './pages/WorksTeamProfileGenerator';
+// import WorksWeatherDashboard from './pages/WorksWeatherDashboard';
 
-import NavProvider from './nav/NavContext';
+// import NavProvider from './nav/NavContext';
 
 // import About from './pages/About';
 // import Contacts from './pages/Contacts';
@@ -32,7 +33,9 @@ function App() {
     return (
 
 <section>
-    <Home />
+        <Router>
+            <Home />
+        </Router>
 </section>
 
 

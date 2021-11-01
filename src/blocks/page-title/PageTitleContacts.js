@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import { Element } from 'react-scroll';
+import React from 'react';
+// import React, { Component } from 'react';
+// import { Element } from 'react-scroll';
 
 const PageTitleContacts = () => {
     return (

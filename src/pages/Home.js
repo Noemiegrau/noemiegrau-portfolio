@@ -6,8 +6,8 @@ import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
 
 import PageTitleHome from '../blocks/page-title/PageTitleHome';
-import Works from '../blocks/works/Works';
-import Reviews from '../blocks/reviews/Reviews';
+// import Works from '../blocks/works/Works';
+// import Reviews from '../blocks/reviews/Reviews';
 import Resume from '../blocks/resume/Resume';
 import Contacts from '../blocks/contacts/Contacts';
 
