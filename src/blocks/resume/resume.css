@@ -1,0 +1,15 @@
+#resumebtn {
+    background:#FED9CA;
+    color: #e89777;
+    border-color: #e89777;
+    border-radius: 10px;
+    border-width: medium;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#resumebtn:hover {
+    background:#f9e0d6;
+    transform: perspective(1px) scale(1.1) translateZ(0);
+}
