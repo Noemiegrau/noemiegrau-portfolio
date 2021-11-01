@@ -11,9 +11,7 @@ import WorksPasswordGenerator from './pages/WorksPasswordGenerator';
 import WorksCodingQuiz from './pages/WorksCodingQuiz';
 import WorksShopShop from './pages/WorksShopShop';
 import WorksBookSearchEngine from './pages/WorksBookSearchEngine';
-import WorksPizzaHunt from './pages/WorksPizzaHunt';
 import WorksTaskMasterPro from './pages/WorksTaskMasterPro';
-import WorksTeamProfileGenerator from './pages/WorksTeamProfileGenerator';
 import WorksWeatherDashboard from './pages/WorksWeatherDashboard';
 
 import NavProvider from './nav/NavContext';
@@ -26,6 +24,8 @@ import NavProvider from './nav/NavContext';
 // import WorksInside from './pages/WorksInside';
 // import UserInterface from './pages/UserInterface';
 // import Nav from './nav/Nav';
+// import WorksPizzaHunt from './pages/WorksPizzaHunt';
+// import WorksTeamProfileGenerator from './pages/WorksTeamProfileGenerator';
 
 
 function App() {
@@ -93,21 +93,21 @@ function App() {
                     path={ `${ process.env.PUBLIC_URL + "/works-booksearchengine" }` }
                     component={ WorksBookSearchEngine }
                 />
-                <Route
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/works-pizzahunt" }` }
                     component={ WorksPizzaHunt }
-                />
+                /> */}
                 <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/works-taskmasterpro" }` }
                     component={ WorksTaskMasterPro }
                 />
-                <Route
+                {/* <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/works-teamprofilegenerator" }` }
                     component={ WorksTeamProfileGenerator }
-                />
+                /> */}
                 <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/works-weatherdashboard" }` }

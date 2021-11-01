@@ -5,9 +5,9 @@ const Reviews = () => {
         <section id="review" className="block spacer p-top-xl">
             <div className="wrapper">
                 <h2 className="text-left">
-                    <p title="Reviews" className="transform-scale-h">
+                    <a title="Reviews" className="transform-scale-h">
                         <span className="line">What people said about me</span>
-                    </p>
+                    </a>
                 </h2>
             </div>
 
