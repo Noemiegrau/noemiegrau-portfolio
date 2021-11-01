@@ -1,6 +1,6 @@
 /* KEYFRAMES */
 
-@keyframes spin {
+/* @keyframes spin {
     from {
       transform: rotate(0);
     }
@@ -63,11 +63,11 @@
       opacity: .25;
       transform: scale(.75);
     }
-  }
+  } */
   
   /* GRID STYLING */
   
-  .spinner-box {
+  /* .spinner-box {
     width: 600px;
     height: 600px;
     display: flex;
@@ -83,4 +83,4 @@
     border-top: 3px solid transparent;
     border-radius: 50%;
     animation: spin .5s linear 0s infinite;
-  }
+  } */

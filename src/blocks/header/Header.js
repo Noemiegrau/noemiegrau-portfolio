@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../blocks/logo/Logo';
-// import Nav from '../../nav/Nav';
+import Nav from '../../nav/Nav';
 import '../../nav/Nav.css';
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
                 </div>
 
                 <div className="justify-content-end ml-auto">
-                    {/* <Nav /> */}
+                    <Nav />
                 </div>
             </div>
         </header>
