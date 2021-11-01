@@ -50,7 +50,7 @@ const Home = () => {
 
                 <Resume />
 
-                <Works />
+                {/* <Works /> */}
 
                 {/* <Reviews /> */}
 
