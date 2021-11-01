@@ -12,7 +12,7 @@ const Header = () => {
                 </div>
 
                 <div className="justify-content-end ml-auto">
-                    <Nav />
+                    {/* <Nav /> */}
                 </div>
             </div>
         </header>
