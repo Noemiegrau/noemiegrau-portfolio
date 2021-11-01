@@ -30,96 +30,111 @@ import NavProvider from './nav/NavContext';
 
 function App() {
     return (
-        <section>
+
+<section>
+    <Home />
+</section>
+
+
+
+
+
+
+
+
+
+
+
+        // <section>
             
-            <Router>
-                <NavProvider>
+        //     <Router>
+        //         <NavProvider>
 
-                <Switch>
-                {/* <Home /> */}
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/" }` }
-                    component={ Home }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/home" }` }
-                    component={ Home }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/yellow" }` }
-                    component={ Journal }
-                /> 
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-chelciefans" }` }
-                    component={ WorksChelcieFans }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-runbuddy" }` }
-                    component={ WorksRunBuddy }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-foodforward" }` }
-                    component={ WorksFoodForward }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-pawpals" }` }
-                    component={ WorksPawpals }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-passwordgenerator" }` }
-                    component={ WorksPasswordGenerator }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-codingquiz" }` }
-                    component={ WorksCodingQuiz }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-shopshop" }` }
-                    component={ WorksShopShop }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-booksearchengine" }` }
-                    component={ WorksBookSearchEngine }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-pizzahunt" }` }
-                    component={ WorksPizzaHunt }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-taskmasterpro" }` }
-                    component={ WorksTaskMasterPro }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-teamprofilegenerator" }` }
-                    component={ WorksTeamProfileGenerator }
-                />
-                <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-weatherdashboard" }` }
-                    component={ WorksWeatherDashboard }
-                />
-                <Route exact component={ page404 }/>
-                </Switch>
+        //         <Switch>
+        //         {/* <Home /> */}
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/" }` }
+        //             component={ Home }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/home" }` }
+        //             component={ Home }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/yellow" }` }
+        //             component={ Journal }
+        //         /> 
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-chelciefans" }` }
+        //             component={ WorksChelcieFans }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-runbuddy" }` }
+        //             component={ WorksRunBuddy }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-foodforward" }` }
+        //             component={ WorksFoodForward }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-pawpals" }` }
+        //             component={ WorksPawpals }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-passwordgenerator" }` }
+        //             component={ WorksPasswordGenerator }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-codingquiz" }` }
+        //             component={ WorksCodingQuiz }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-shopshop" }` }
+        //             component={ WorksShopShop }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-booksearchengine" }` }
+        //             component={ WorksBookSearchEngine }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-pizzahunt" }` }
+        //             component={ WorksPizzaHunt }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-taskmasterpro" }` }
+        //             component={ WorksTaskMasterPro }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-teamprofilegenerator" }` }
+        //             component={ WorksTeamProfileGenerator }
+        //         />
+        //         <Route
+        //             exact
+        //             path={ `${ process.env.PUBLIC_URL + "/works-weatherdashboard" }` }
+        //             component={ WorksWeatherDashboard }
+        //         />
+        //         <Route exact component={ page404 }/>
+        //         </Switch>
 
 
-                </NavProvider>
-            </Router>
+        //         </NavProvider>
+        //     </Router>
 
-        </section>
+        // </section>
 
 );
 
