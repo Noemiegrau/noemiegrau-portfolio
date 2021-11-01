@@ -48,7 +48,13 @@ const Contacts = () => {
                                     {/* <section id="contact" className="block spacer p-top-xl"> */}
                                 </div>
 
-                                <div className="col-xl-8 col-lg-8 col-md-8 col-12">
+
+
+
+
+
+
+                                {/* <div className="col-xl-8 col-lg-8 col-md-8 col-12">
                                     <div className="list-group list-group-horizontal-sm">
                                         <div className="list-group-item">
                                             <h4><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -89,7 +95,15 @@ const Contacts = () => {
                                             <p><a href="https://www.linkedin.com/in/noemiegrau/">Noemie Grau</a></p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
+
+
+
+
+
+
+
+                                
                             </div>
                         </div>
 
