@@ -1,7 +1,7 @@
 import React from 'react';
 // import AwardItemsData from '../../data/awards/awards';
 
-import html from '';
+// import html from '';
 
 
 const Awards = () => {
@@ -75,7 +75,7 @@ const Awards = () => {
 
 
 
-                                
+
 
                                 {/* </div>
                             </div> */}
