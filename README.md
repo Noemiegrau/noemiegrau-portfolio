@@ -23,7 +23,7 @@ Project is created using:
 
 ## **_Usage_**
 
-------------->>>>>> Put image here!
+------------->>>>>>>>> Put image here!
 
 ## **_Installation_**
 Here are some guidelines for installing the project on your local machine in order to be able to try it: 
@@ -34,7 +34,7 @@ Here are some guidelines for installing the project on your local machine in ord
 
 3. Run ```npm start``` in your terminal to launch the application. Or check the deployed app directly on this link (https://noemiegrau.github.io/noemiegrau-portfolio/).
 
-4. Enjoy and don't hesitate to contribute! 🙂
+4. Enjoy and don't hesitate to contribute!! 🙂
 
 ## **_Link URL to GitHub Repository_**
 https://github.com/Noemiegrau/noemiegrau-portfolio
