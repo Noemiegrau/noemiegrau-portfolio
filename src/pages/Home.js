@@ -16,6 +16,7 @@ import ContactsPage from './Contacts';
 
 // import Journal from '../blocks/blog/Blog';
 // import AboutBlock from '../blocks/about-block/AboutBlock';
+// import AboutBlock from '../blocks/about-block/AboutBlock';
 
 const Home = () => {
     document.body.classList.add( 'home' );
