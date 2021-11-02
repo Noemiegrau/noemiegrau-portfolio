@@ -1,4 +1,4 @@
-# Oxer – Minimal Portfolio React JS Template
+# Noemie Grau - Official Portfolio Website
 # https://store.adveits.com/item/oxer-minimal-portfolio-react-js-template/changelog/
 
 ## Changelog list:
