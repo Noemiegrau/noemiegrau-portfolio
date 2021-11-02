@@ -1,0 +1,25 @@
+{
+    "short_name": "Oxer",
+    "name": "Oxer - Minimal Portfolio React JS Template",
+    "icons": [
+        {
+            "src": "assets/img/favicon/favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "assets/img/logo/logo.svg",
+            "type": "image/svg",
+            "sizes": "50x39"
+        },
+        {
+            "src": "assets/img/logo/logo-2.svg",
+            "type": "image/svg",
+            "sizes": "141x42"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#2b2b2b",
+    "background_color": "#ffffff"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="527px" height="1058px" viewBox="0 0 527 1058" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-half-ring-right</title>
+    <defs></defs>
+    <g id="bg-half-ring-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M527,1058 C237.050506,1058 2,821.158633 2,529 C2,236.841367 237.050506,0 527,0 C816.949494,0 1052,236.841367 1052,529 C1052,821.158633 816.949494,1058 527,1058 Z M529.5,812 C682.206733,812 806,687.087445 806,533 C806,378.912555 682.206733,254 529.5,254 C376.793267,254 253,378.912555 253,533 C253,687.087445 376.793267,812 529.5,812 Z" id="Combined-Shape-Copy-2" fill="#FBFBFB"></path>
+    </g>
+</svg>

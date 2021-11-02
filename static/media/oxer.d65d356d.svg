@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="oxer" horiz-adv-x="1000" >
+<font-face font-family="oxer" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="menu" unicode="&#xe800;" d="M978 739h-978v111h978v-111z m0-778h-978v-111h978v111z" horiz-adv-x="978" />
+
+<glyph glyph-name="close" unicode="&#xe801;" d="M578 357l408-408-99-99-408 409-380-395-99 99 380 380-380 394 99 99 380-380 408 394 99-99-408-394z" horiz-adv-x="986" />
+
+<glyph glyph-name="arrow-up" unicode="&#xe803;" d="M276 850l276-222-62-76-166 134 0-836h-98v834l-166-134-60 78 276 222z" horiz-adv-x="552" />
+
+<glyph glyph-name="arrow-down" unicode="&#xe804;" d="M276-150l-276 222 62 76 166-134v836l98 0v-834l166 134 60-78-276-222z" horiz-adv-x="552" />
+
+<glyph glyph-name="arrow-left" unicode="&#xe805;" d="M0 350l222 276 76-62-134-166 836 0v-98l-834 0 134-166-78-60-222 276z" horiz-adv-x="1000" />
+
+<glyph glyph-name="arrow-right" unicode="&#xe806;" d="M1000 350l-222-276-76 62 134 166-836 0 0 98 834 0-134 166 78 60 222-276z" horiz-adv-x="1000" />
+
+<glyph glyph-name="search" unicode="&#xe807;" d="M913-150l-236 236c-71-51-157-79-245-79-233 0-422 189-422 422 0 232 189 421 421 421s421-189 421-421c0-98-35-193-97-268l235-234-77-77z m-482 891c-172 0-312-140-312-312s140-312 312-312c79 0 154 29 212 83 64 59 100 143 100 230 1 171-139 311-312 311z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
