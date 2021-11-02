@@ -53,6 +53,8 @@ const Home = () => {
 
                 <Works />
 
+                <Works />
+
                 {/* <Reviews /> */}
 
                 <Contacts />
