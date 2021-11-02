@@ -55,52 +55,52 @@ function App() {
                 /> 
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-chelciefans" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/noemiegrau-portfolio/works-chelciefans" }` }
                     component={ WorksChelcieFans }
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-runbuddy" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/noemiegrau-portfolio/works-runbuddy" }` }
                     component={ WorksRunBuddy }
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-foodforward" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/noemiegrau-portfolio/works-foodforward" }` }
                     component={ WorksFoodForward }
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-pawpals" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/noemiegrau-portfolio/works-pawpals" }` }
                     component={ WorksPawpals }
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-passwordgenerator" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/noemiegrau-portfolio/works-passwordgenerator" }` }
                     component={ WorksPasswordGenerator }
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-codingquiz" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/noemiegrau-portfolio/works-codingquiz" }` }
                     component={ WorksCodingQuiz }
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-shopshop" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/noemiegrau-portfolio/works-shopshop" }` }
                     component={ WorksShopShop }
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-booksearchengine" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/noemiegrau-portfolio/works-booksearchengine" }` }
                     component={ WorksBookSearchEngine }
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-taskmasterpro" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/noemiegrau-portfolio/works-taskmasterpro" }` }
                     component={ WorksTaskMasterPro }
                 />
                 <Route
                     exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-weatherdashboard" }` }
+                    path={ `${ process.env.PUBLIC_URL + "/noemiegrau-portfolio/works-weatherdashboard" }` }
                     component={ WorksWeatherDashboard }
                 />
                 <Route exact component={ page404 }/>
