@@ -93,21 +93,11 @@ function App() {
                     path={ `${ process.env.PUBLIC_URL + "/works-booksearchengine" }` }
                     component={ WorksBookSearchEngine }
                 />
-                {/* <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-pizzahunt" }` }
-                    component={ WorksPizzaHunt }
-                /> */}
                 <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/works-taskmasterpro" }` }
                     component={ WorksTaskMasterPro }
                 />
-                {/* <Route
-                    exact
-                    path={ `${ process.env.PUBLIC_URL + "/works-teamprofilegenerator" }` }
-                    component={ WorksTeamProfileGenerator }
-                /> */}
                 <Route
                     exact
                     path={ `${ process.env.PUBLIC_URL + "/works-weatherdashboard" }` }
