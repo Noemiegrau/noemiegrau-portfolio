@@ -7,6 +7,7 @@ import Footer from '../blocks/footer/Footer';
 
 import PageTitle404 from '../blocks/page-title/PageTitle404';
 import BackToHome from '../components/button/BackToHome';
+import SearchForm from '../components/form/SearchForm';
 
 const page404 = () => {
     document.body.classList.add( 'error404' );
@@ -42,6 +43,7 @@ const page404 = () => {
 
                         <div className="spacer p-top-xs d-xl-flex d-lg-flex d-md-flex justify-content-between block m-top-extrasmall">
                             <div className="align-self-center w-50">
+                                {/* <SearchForm /> */}
                             </div>
 
                             <BackToHome />

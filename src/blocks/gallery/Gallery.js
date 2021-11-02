@@ -128,7 +128,7 @@ class Gallery extends Component {
 
 {/* { this.props.seeMore ? */}
     <div className="text-center no-space">
-        <a title="See more" className="btn btn-link border-0 p-0 transform-scale-h" target="_blank" rel="noopener noreferrer" href="https://github.com/Noemiegrau">See more projects on my GitHub profile <i className="icon-c icon-arrow-right" /></a>
+        <a title="See more" className="btn btn-link border-0 p-0 transform-scale-h" target="_blank" href="https://github.com/Noemiegrau">See more projects on my GitHub profile <i className="icon-c icon-arrow-right" /></a>
     </div>
     {/* : "" */}
 {/* } */}

@@ -7,7 +7,7 @@ import Footer from '../blocks/footer/Footer';
 
 import PageTitleHome from '../blocks/page-title/PageTitleHome';
 import Works from '../blocks/works/Works';
-import Reviews from '../blocks/reviews/Reviews';
+// import Reviews from '../blocks/reviews/Reviews';
 import Resume from '../blocks/resume/Resume';
 import Contacts from '../blocks/contacts/Contacts';
 
@@ -27,7 +27,7 @@ const Home = () => {
         <Fragment>
             <MetaTags>
                 <meta charSet="UTF-8" />
-                <title>Home | Noemie Grau - Official Portfolio Website </title>
+                <title>Home | Noemie Grau - Official Portfolio Website</title>
 
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -53,7 +53,7 @@ const Home = () => {
 
                 <Works />
 
-                <Reviews />
+                {/* <Reviews /> */}
 
                 <Contacts />
 
