@@ -1,3 +1,70 @@
+// import React from 'react';
+
+// // var ChelcieFansHTML = require('./worksChelciefans.html');
+
+
+// var __html = require('./worksChelciefans.html');
+// var ChelcieFansHTML = { __html: __html };
+
+
+// function WorksChelcieFans() {
+// React.module.exports = React.createClass({
+//     render: function yess() {
+//       return(
+//         <div dangerouslySetInnerHTML={ChelcieFansHTML} />
+//       );
+//     }
+//   });
+// }
+
+//   export default WorksChelcieFans;
+
+
+
+// React.module.exports = React.createClass({
+// render: function WorksChelcieFans() {
+//     return (
+//         <div dangerouslySetInnerHTML={ChelcieFansHTML} />
+//     );
+// export default WorksChelcieFans;
+
+//     }
+// });
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
