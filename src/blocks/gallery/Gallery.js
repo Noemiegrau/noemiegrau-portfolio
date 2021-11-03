@@ -4,6 +4,9 @@ import ImagesLoaded from 'imagesloaded';
 import PropTypes from 'prop-types';
 import GalleryMenuData from '../../data/gallery/galleryMenu';
 import GalleryItemsData from '../../data/gallery/galleryItems';
+// import ModalWorks from "../../components/ModalWorks";
+
+import Modal from 'react-awesome-modal';
 
 class Gallery extends Component {
     constructor( props ) {
@@ -15,6 +18,29 @@ class Gallery extends Component {
             list: GalleryMenuData
         };
     }
+
+    openModal() {
+        this.setState({
+            visible : true
+        });
+    }
+
+    closeModal() {
+        this.setState({
+            visible : false
+        });
+    }
+
+
+    // state = {
+    //     show: false
+    //   };
+    //   showModal = e => {
+    //     this.setState({
+    //       show: !this.state.show
+    //     });
+    //   };
+    
 
     handleClick( i, e ) {
         e.preventDefault();
@@ -96,13 +122,39 @@ class Gallery extends Component {
                                 }
                             </React.Fragment>
                         ) ) }
-                    </ul>
-                </div>
+                    </ul>                
+                    </div>
+
+
+                    {/* <div> <ModalWorks /> </div> */}
+
+                    <section>
+                        <h1>React-Modal Examples</h1>
+                            <input type="button" value="Open" onClick={() => this.openModal()} />
+                                <Modal 
+                                    visible={this.state.visible}
+                                    width="400"
+                                    height="300"
+                                    effect="fadeInUp"
+                                    onClickAway={() => this.closeModal()}
+                                >
+                                    <div>
+                                        <h1>Title</h1>
+                                        <p>Some Contents</p>
+                                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+                                    </div>
+                                </Modal>
+                    </section>
+
+
+
+
+
                 <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
                     <div className="gallery-items" ref={ ( c ) => this.grid = c }>
                         { GalleryItemsData && GalleryItemsData.map( ( item, key ) => {
                             return (
-                                <a key={ key } title={ item.title } className={ "gallery-item active " + item.category } href={ process.env.PUBLIC_URL + item.link }>
+                                <a onClick={e => { this.showModal(); }} key={ key } title={ item.title } className={ "gallery-item active " + item.category } href={ process.env.PUBLIC_URL + item.link }>
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
                                         {/* <img src={require("./img/chelciefans.png")} alt="test" /> */}
@@ -125,6 +177,7 @@ class Gallery extends Component {
                         } ) }
                     </div>
                 </div>
+
 
 {/* { this.props.seeMore ? */}
     <div className="text-center no-space">

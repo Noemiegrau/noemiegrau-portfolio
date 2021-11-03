@@ -14,6 +14,8 @@ import Contacts from '../blocks/contacts/Contacts';
 import About from './About';
 import ContactsPage from './Contacts';
 
+// import Modal from "../components/ModalWorks";
+
 // import Journal from '../blocks/blog/Blog';
 // import AboutBlock from '../blocks/about-block/AboutBlock';
 // import AboutBlock from '../blocks/about-block/AboutBlock';
