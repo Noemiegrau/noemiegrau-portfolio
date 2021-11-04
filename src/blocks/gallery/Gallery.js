@@ -6,6 +6,7 @@ import GalleryMenuData from '../../data/gallery/galleryMenu';
 import GalleryItemsData from '../../data/gallery/galleryItems';
 import ModalChelcie from '../../pages/ModalChelcie';
 import ModalRunBuddy from '../../pages/ModalRunBuddy';
+import RespModal from '../../pages/RespModal';
 
 import Modal from 'react-awesome-modal';
 
@@ -130,6 +131,8 @@ class Gallery extends Component {
                     <ModalChelcie />
 
                     <ModalRunBuddy />
+
+                    <RespModal />
 
 
                {/* <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
