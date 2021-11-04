@@ -4,7 +4,8 @@ import ImagesLoaded from 'imagesloaded';
 import PropTypes from 'prop-types';
 import GalleryMenuData from '../../data/gallery/galleryMenu';
 import GalleryItemsData from '../../data/gallery/galleryItems';
-// import ModalWorks from "../../components/ModalWorks";
+import ModalChelcie from '../../pages/ModalChelcie';
+import ModalRunBuddy from '../../pages/ModalRunBuddy';
 
 import Modal from 'react-awesome-modal';
 
@@ -126,38 +127,66 @@ class Gallery extends Component {
                     </div>
 
 
-                    {/* <div> <ModalWorks /> </div> */}
+                    <ModalChelcie />
 
-                    <section>
-                        <h1>React-Modal Examples</h1>
-                            <input type="button" value="Open" onClick={() => this.openModal()} />
-                                <Modal 
-                                    visible={this.state.visible}
-                                    width="400"
-                                    height="300"
-                                    effect="fadeInUp"
-                                    onClickAway={() => this.closeModal()}
-                                >
-                                    <div>
-                                        <h1>Title</h1>
-                                        <p>Some Contents</p>
-                                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+                    <ModalRunBuddy />
+
+
+               {/* <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
+                    <div className="gallery-items" ref={ ( c ) => this.grid = c }>
+
+
+                                <a onClick={() => this.openModal()} title="Chelcie Fans" className="gallery-item active gallery-item-visible mern fullstack">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/chelciefans.png" alt="project named 'Chelcie Fans'" />
+                                        <input type="button" value="Open" onClick={<ModalChelcie />} />
+                                        </div>
                                     </div>
-                                </Modal>
-                    </section>
+
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Chelcie Fans</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                                
 
 
+                                <a onClick={() => this.openModal()} title="Run Buddy" className="gallery-item active gallery-item-visible frontend">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/runbuddy.png" alt="project named 'Run Buddy'" />
+                                        </div>
+                                    </div>
 
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Run Buddy</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                    </div>
+                </div> */}
 
 
                 <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
                     <div className="gallery-items" ref={ ( c ) => this.grid = c }>
                         { GalleryItemsData && GalleryItemsData.map( ( item, key ) => {
                             return (
-                                <a onClick={e => { this.showModal(); }} key={ key } title={ item.title } className={ "gallery-item active " + item.category } href={ process.env.PUBLIC_URL + item.link }>
+                                <a key={ key } title={ item.title } className={ "gallery-item active " + item.category } href={ process.env.PUBLIC_URL + item.link }>
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
-                                        {/* <img src={require("./img/chelciefans.png")} alt="test" /> */}
                                         <img src={item.imgLink} alt={item.alt} />
                                         </div>
                                     </div>
