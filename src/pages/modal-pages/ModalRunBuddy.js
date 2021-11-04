@@ -1,9 +1,9 @@
 import React from 'react';
 import "react-responsive-modal/styles.css";
 import { Modal } from 'react-responsive-modal';
-import Chelcie from "../components/ModalWorks/chelcie.js";
+import RunBuddy from "../../components/modalWorks/runbuddy.js";
 
-class ModalChelcie extends React.Component {
+class ModalRunBuddy extends React.Component {
 
     state = {
         hasOpen: false
@@ -24,14 +24,14 @@ class ModalChelcie extends React.Component {
                 <button onClick={this.onButtonClick}>Learn more</button>
                 <Modal open={hasOpen} onClose={this.onCloseModal}center>
                     <p>This is the modal paragraph.</p>
-                    <Chelcie />
+                    <RunBuddy />
                 </Modal>
             </div>
         );
     }
 }
 
-export default ModalChelcie;
+export default ModalRunBuddy;
 
 
 
@@ -48,7 +48,7 @@ export default ModalChelcie;
 
 // import React, { Component } from 'react';
 // import Modal from 'react-awesome-modal';
-// import Chelcie from "../components/ModalWorks/chelcie.js";
+// import ModalRunBuddy from "../components/ModalWorks/runbuddy.js";
 
 // export default class Examples extends Component {
 //     constructor(props) {
@@ -73,7 +73,7 @@ export default ModalChelcie;
 //     render() {
 //         return (
 //             <section>
-//                         <h4>Modal Chelcie</h4>
+//                         <h4>Modal Run Buddy</h4>
 //                             <input type="button" value="Open" onClick={() => this.openModal()} />
 //                                 <Modal 
 //                                     visible={this.state.visible}
@@ -82,12 +82,12 @@ export default ModalChelcie;
 //                                     effect="fadeInUp"
 //                                     onClickAway={() => this.closeModal()}
 //                                 >
-//                                     <div>
-//                                         <h4>Title</h4>
+//                                     {/* <div>
+//                                         <h1>Title</h1>
 //                                         <p>Some Contents</p>
 //                                         <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
-//                                     </div>
-//                                     <Chelcie />
+//                                     </div> */}
+//                                     <ModalRunBuddy />
 //                                 </Modal>
 //                     </section>
 //         );

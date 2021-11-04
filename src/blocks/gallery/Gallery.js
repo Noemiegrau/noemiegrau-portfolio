@@ -7,8 +7,16 @@ import GalleryMenuData from '../../data/gallery/galleryMenu';
 // import RespModal from '../../pages/RespModal';
 // import Modal from 'react-awesome-modal';
 
-import ModalChelcie from '../../pages/ModalChelcie';
-import ModalRunBuddy from '../../pages/ModalRunBuddy';
+import ModalChelcie from '../../pages/modal-pages/ModalChelcie';
+import ModalRunBuddy from '../../pages/modal-pages/ModalRunBuddy';
+import ModalFoodForward from '../../pages/modal-pages/ModalFoodForward';
+import ModalPawpals from '../../pages/modal-pages/ModalPawpals';
+import ModalPasswordGenerator from '../../pages/modal-pages/ModalPasswordGenerator';
+import ModalCodingQuiz from '../../pages/modal-pages/ModalCodingQuiz';
+import ModalShopShop from '../../pages/modal-pages/ModalShopShop';
+import ModalBookSearchEngine from '../../pages/modal-pages/ModalBookSearchEngine';
+import ModalTaskMasterPro from '../../pages/modal-pages/ModalTaskMasterPro';
+import ModalWeatherDashboard from '../../pages/modal-pages/ModalWeatherDashboard';
 
 class Gallery extends Component {
     constructor( props ) {
@@ -190,7 +198,7 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more
-                                                <ModalRunBuddy />
+                                                <ModalFoodForward />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
@@ -211,7 +219,7 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more
-                                                <ModalRunBuddy />
+                                                <ModalPawpals />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
@@ -232,7 +240,7 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more
-                                                <ModalRunBuddy />
+                                                <ModalPasswordGenerator />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
@@ -253,7 +261,7 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more
-                                                <ModalRunBuddy />
+                                                <ModalCodingQuiz />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
@@ -274,7 +282,7 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more
-                                                <ModalRunBuddy />
+                                                <ModalShopShop />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
@@ -295,7 +303,7 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more
-                                                <ModalRunBuddy />
+                                                <ModalBookSearchEngine />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
@@ -316,7 +324,7 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more
-                                                <ModalRunBuddy />
+                                                <ModalTaskMasterPro />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
@@ -337,7 +345,7 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more
-                                                <ModalRunBuddy />
+                                                <ModalTaskMasterPro />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
@@ -358,7 +366,7 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more
-                                                <ModalRunBuddy />
+                                                <ModalWeatherDashboard />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
