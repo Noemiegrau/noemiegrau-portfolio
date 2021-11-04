@@ -135,24 +135,25 @@ class Gallery extends Component {
                     <RespModal />
 
 
-               {/* <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
+               <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
                     <div className="gallery-items" ref={ ( c ) => this.grid = c }>
 
-
-                                <a onClick={() => this.openModal()} title="Chelcie Fans" className="gallery-item active gallery-item-visible mern fullstack">
+                                {/* CHELCIE FANS */}
+                                <a title="Chelcie Fans" className="gallery-item active gallery-item-visible mern fullstack">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
                                         <img src="assets/img/placeholder/chelciefans.png" alt="project named 'Chelcie Fans'" />
-                                        <input type="button" value="Open" onClick={<ModalChelcie />} />
                                         </div>
                                     </div>
 
                                     <div className="gallery-hover">
                                         <div className="gallery-hover-wrapper">
                                             <h3>Chelcie Fans</h3>
+                                            
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                Learn more 
+                                                <RespModal />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
@@ -160,7 +161,7 @@ class Gallery extends Component {
                                 </a>
                                 
 
-
+                                {/* RUN BUDDY */}
                                 <a onClick={() => this.openModal()} title="Run Buddy" className="gallery-item active gallery-item-visible frontend">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
@@ -180,14 +181,14 @@ class Gallery extends Component {
                                     </div>
                                 </a>
                     </div>
-                </div> */}
+                </div>
 
 
-                <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
+                {/* <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
                     <div className="gallery-items" ref={ ( c ) => this.grid = c }>
                         { GalleryItemsData && GalleryItemsData.map( ( item, key ) => {
                             return (
-                                <a key={ key } title={ item.title } className={ "gallery-item active " + item.category } href={ process.env.PUBLIC_URL + item.link }>
+                                <div key={ key } title={ item.title } className={ "gallery-item active " + item.category } href={ process.env.PUBLIC_URL + item.link }>
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
                                         <img src={item.imgLink} alt={item.alt} />
@@ -204,11 +205,11 @@ class Gallery extends Component {
                                             </span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             );
                         } ) }
                     </div>
-                </div>
+                </div> */}
 
 
 {/* { this.props.seeMore ? */}

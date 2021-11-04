@@ -21,7 +21,7 @@ class RespModal extends React.Component {
         const { hasOpen } = this.state;
         return ( 
             <div>
-                <button onClick={this.onButtonClick}>Let's Open Modal</button>
+                <button onClick={this.onButtonClick}>Learn more</button>
                 <Modal open={hasOpen} onClose={this.onCloseModal}center>
                     <p>This is the modal paragraph.</p>
                     <Chelcie />
