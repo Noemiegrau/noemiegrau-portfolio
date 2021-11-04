@@ -1,19 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c804679f0fb2f054e76c21afbd8009f",
+    "revision": "ffe5d827b8fdbe33a668d05c06e49b72",
     "url": "/noemiegrau-portfolio/index.html"
   },
   {
-    "revision": "4b25b6eb521d124f833f",
+    "revision": "ee7df619e9d92eb61eb4",
+    "url": "/noemiegrau-portfolio/static/css/2.c1a2aa03.chunk.css"
+  },
+  {
+    "revision": "1ea3b51d91706dcf6491",
     "url": "/noemiegrau-portfolio/static/css/main.2e6b34ad.chunk.css"
   },
   {
-    "revision": "8ae0a4d038ba75532ea6",
-    "url": "/noemiegrau-portfolio/static/js/2.4a354f48.chunk.js"
+    "revision": "ee7df619e9d92eb61eb4",
+    "url": "/noemiegrau-portfolio/static/js/2.35d478e5.chunk.js"
   },
   {
-    "revision": "4b25b6eb521d124f833f",
-    "url": "/noemiegrau-portfolio/static/js/main.caab6d97.chunk.js"
+    "revision": "1ea3b51d91706dcf6491",
+    "url": "/noemiegrau-portfolio/static/js/main.d955d60e.chunk.js"
   },
   {
     "revision": "a47c152c2991b86cac9c",
