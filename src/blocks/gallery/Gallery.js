@@ -3,12 +3,12 @@ import Isotope from 'isotope-layout';
 import ImagesLoaded from 'imagesloaded';
 import PropTypes from 'prop-types';
 import GalleryMenuData from '../../data/gallery/galleryMenu';
-import GalleryItemsData from '../../data/gallery/galleryItems';
+// import GalleryItemsData from '../../data/gallery/galleryItems';
+// import RespModal from '../../pages/RespModal';
+// import Modal from 'react-awesome-modal';
+
 import ModalChelcie from '../../pages/ModalChelcie';
 import ModalRunBuddy from '../../pages/ModalRunBuddy';
-import RespModal from '../../pages/RespModal';
-
-import Modal from 'react-awesome-modal';
 
 class Gallery extends Component {
     constructor( props ) {
@@ -127,16 +127,10 @@ class Gallery extends Component {
                     </ul>                
                     </div>
 
-
-                    <ModalChelcie />
-
-                    <ModalRunBuddy />
-
-                    <RespModal />
-
-
-               <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
+                {/* GALLERY GRID */}
+                <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
                     <div className="gallery-items" ref={ ( c ) => this.grid = c }>
+
 
                                 {/* CHELCIE FANS */}
                                 <a title="Chelcie Fans" className="gallery-item active gallery-item-visible mern fullstack">
@@ -153,7 +147,7 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more 
-                                                <RespModal />
+                                                <ModalChelcie />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
@@ -162,7 +156,7 @@ class Gallery extends Component {
                                 
 
                                 {/* RUN BUDDY */}
-                                <a onClick={() => this.openModal()} title="Run Buddy" className="gallery-item active gallery-item-visible frontend">
+                                <a title="Run Buddy" className="gallery-item active gallery-item-visible frontend">
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
                                         <img src="assets/img/placeholder/runbuddy.png" alt="project named 'Run Buddy'" />
@@ -175,13 +169,205 @@ class Gallery extends Component {
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
                                                 Learn more
+                                                <ModalRunBuddy />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
                                         </div>
                                     </div>
                                 </a>
+
+                                {/* FOOD FORWARD */}
+                                <a title="Food Forward" className="gallery-item active gallery-item-visible fullstack sql">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/foodforward.png" alt="project named 'Food Forward'" />
+                                        </div>
+                                    </div>
+
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Food Forward</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <ModalRunBuddy />
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                {/* PAWPALS */}
+                                <a title="Pawpals" className="gallery-item active gallery-item-visible frontend">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/pawpals.png" alt="project named 'Pawpals'" />
+                                        </div>
+                                    </div>
+
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Pawpals</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <ModalRunBuddy />
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                {/* PASSWORD GENERATOR */}
+                                <a title="Password Generator" className="gallery-item active frontend">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/passwordgen.png" alt="project named 'Password Generator'" />
+                                        </div>
+                                    </div>
+
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Password Generator</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <ModalRunBuddy />
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                {/* CODING QUIZ */}
+                                <a title="Coding Quiz" className="gallery-item active frontend">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/codingquiz.png" alt="project named 'Coding Quiz'" />
+                                        </div>
+                                    </div>
+
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Coding Quiz</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <ModalRunBuddy />
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                {/* SHOP SHOP */}
+                                <a title="Shop Shop" className="gallery-item active mern fullstack">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/shopshop.png" alt="project named 'Shop Shop'" />
+                                        </div>
+                                    </div>
+
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Shop Shop</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <ModalRunBuddy />
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                {/* BOOK SEARCH ENGINE */}
+                                <a title="Book Search Engine" className="gallery-item active mern fullstack">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/booksearch.png" alt="project named 'Book Search Engine'" />
+                                        </div>
+                                    </div>
+
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Book Search Engine</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <ModalRunBuddy />
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                {/* TASKMASTER PRO */}
+                                <a title="Taskmaster Pro" className="gallery-item active frontend">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/taskmaster.png" alt="project named 'Taskmaster Pro'" />
+                                        </div>
+                                    </div>
+
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Taskmaster Pro</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <ModalRunBuddy />
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                {/* TASKMASTER PRO */}
+                                <a title="Taskmaster Pro" className="gallery-item active frontend">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/taskmaster.png" alt="project named 'Taskmaster Pro'" />
+                                        </div>
+                                    </div>
+
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Taskmaster Pro</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <ModalRunBuddy />
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                {/* WEATHER DASHBOARD */}
+                                <a title="Weather Dashboard" className="gallery-item active frontend">
+                                    <div className="img object-fit">
+                                        <div className="object-fit-cover">
+                                        <img src="assets/img/placeholder/weatherdash.png" alt="project named 'Weather Dashboard'" />
+                                        </div>
+                                    </div>
+
+                                    <div className="gallery-hover">
+                                        <div className="gallery-hover-wrapper">
+                                            <h3>Weather Dashboard</h3>
+
+                                            <span className="btn btn-link border-0 transform-scale-h p-0">
+                                                Learn more
+                                                <ModalRunBuddy />
+                                                <i className="icon-c icon-arrow-right" />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+
                     </div>
                 </div>
+
 
 
                 {/* <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >

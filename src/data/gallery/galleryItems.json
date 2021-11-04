@@ -6,7 +6,7 @@
         "link": "/works-chelciefans",
         "imgLink": "assets/img/placeholder/chelciefans.png",
         "alt": "project named 'Chelcie Fans'",
-        "button": "Learn more"
+        "button": "<RespModal />"
     },
     {
         "id": "2",

@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Journal from './pages/Journal';
-import page404 from './pages/404';
+// import Journal from './pages/Journal';
+// import page404 from './pages/404';
 // // import WorksChelcieFans from './html/WorksChelcieFans';
 // import WorksChelcieFans from './pages/WorksChelcieFans';
 // // import ModalWorks from './components/ModalWorks/index';
