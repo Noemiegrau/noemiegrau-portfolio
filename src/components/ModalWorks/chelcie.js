@@ -36,6 +36,7 @@ const WorksChelcieFans = () => {
                         <div id="single">
                             <div className="row gutter-width-lg single-content">
                                 <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                
                                     <div className="img object-fit">
                                         <div className="object-fit-cover">
                                             <img src="assets/img/placeholder/works-inside/chelciefans.png" alt="Chelcie Fans Project" />

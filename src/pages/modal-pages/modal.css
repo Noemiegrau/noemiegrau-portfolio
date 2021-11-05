@@ -1,7 +1,18 @@
+.goBackButtonModals {
+  font-size: 1.5em; 
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
 
-
-
-
+.goBackButtonModals:hover {
+  background: linear-gradient(to right, white 50%, #fed9ca 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  border-radius: 10px;
+  padding: 4px;
+}
 
 
 

@@ -154,7 +154,7 @@ class Gallery extends Component {
                                             
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more 
+                                                {/* Learn more  */}
                                                 <ModalChelcie />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -176,7 +176,7 @@ class Gallery extends Component {
                                             <h3>Run Buddy</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                {/* Learn more */}
                                                 <ModalRunBuddy />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -197,7 +197,7 @@ class Gallery extends Component {
                                             <h3>Food Forward</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                {/* Learn more */}
                                                 <ModalFoodForward />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -218,7 +218,7 @@ class Gallery extends Component {
                                             <h3>Pawpals</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                {/* Learn more */}
                                                 <ModalPawpals />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -239,7 +239,7 @@ class Gallery extends Component {
                                             <h3>Password Generator</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                {/* Learn more */}
                                                 <ModalPasswordGenerator />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -260,7 +260,7 @@ class Gallery extends Component {
                                             <h3>Coding Quiz</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                {/* Learn more */}
                                                 <ModalCodingQuiz />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -281,7 +281,7 @@ class Gallery extends Component {
                                             <h3>Shop Shop</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                {/* Learn more */}
                                                 <ModalShopShop />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -302,7 +302,7 @@ class Gallery extends Component {
                                             <h3>Book Search Engine</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                {/* Learn more */}
                                                 <ModalBookSearchEngine />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -323,7 +323,7 @@ class Gallery extends Component {
                                             <h3>Taskmaster Pro</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                {/* Learn more */}
                                                 <ModalTaskMasterPro />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -344,7 +344,7 @@ class Gallery extends Component {
                                             <h3>Taskmaster Pro</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                {/* Learn more */}
                                                 <ModalTaskMasterPro />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -365,7 +365,7 @@ class Gallery extends Component {
                                             <h3>Weather Dashboard</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                Learn more
+                                                {/* Learn more */}
                                                 <ModalWeatherDashboard />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
