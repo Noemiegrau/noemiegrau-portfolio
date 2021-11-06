@@ -14,11 +14,7 @@ import Contacts from '../blocks/contacts/Contacts';
 import About from './About';
 import ContactsPage from './Contacts';
 
-// import Modal from "../components/ModalWorks";
-
-// import Journal from '../blocks/blog/Blog';
-// import AboutBlock from '../blocks/about-block/AboutBlock';
-// import AboutBlock from '../blocks/about-block/AboutBlock';
+import CustomCursor from '../components/CustomCursor';
 
 const Home = () => {
     document.body.classList.add( 'home' );
@@ -44,11 +40,11 @@ const Home = () => {
             <Loading />
 
             <Header />
+            {/* <CustomCursor /> */}
 
             <main id="main" className="site-main">
                 <PageTitleHome />
 
-                {/* <AboutBlock /> */}
                 <About />
 
                 <Resume />
@@ -60,11 +56,14 @@ const Home = () => {
                 <Contacts />
 
                 <ContactsPage />
-
-                {/* <Journal /> */}
             </main>
 
             <Footer />
+
+            {/* <div class="cursors">
+                <div></div>
+            </div> */}
+
         </Fragment>
     );
 };

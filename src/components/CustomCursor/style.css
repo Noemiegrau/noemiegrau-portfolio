@@ -1,0 +1,49 @@
+.main-cursor,
+.secondary-cursor {
+  pointer-events: none;
+  overflow: hidden;
+  position: fixed;
+  z-index: 40000;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.main-cursor-background {
+  width: 12px;
+  height: 12px;
+  background: black;
+  border-radius: 50%;
+}
+
+.main-cursor-background:after, .main-cursor-background:before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+
+.main-cursor-background:before {
+  left: 10px;
+}
+
+.main-cursor-background:after {
+  right: 10px;
+}
+
+.secondary-cursor {
+  width: 60px;
+  height: 60px;
+}
+
+.cursor-background {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid #e89777;
+  background: #FED9CA;
+  opacity: 0.50;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
