@@ -70,7 +70,7 @@ const WorksFoodForward = () => {
 
                                         <ul>
                                             <li>HTML5, CSS3, Javascript</li>
-                                            <li>MYSQL, MYSQL2, Sequelize, Nodejs, Expressjs, Express session</li>
+                                            <li><strong>MYSQL</strong>, MYSQL2, Sequelize, Nodejs, Expressjs, Express session</li>
                                             <li>Handlebarsjs, JawsDB, Nodemailer</li>
                                             <li>Heroku, and more</li>
                                         </ul>
@@ -79,11 +79,12 @@ const WorksFoodForward = () => {
 
                                         <p>Create an account to try the application or use this sample account to log in:</p>
 
-                                        <p><strong>First Name:</strong> Mary <br />
-                                        <strong>Last Name:</strong> Jones <br />
-                                        <strong>Employee Number:</strong> 024 <br />
-                                        <strong>Email:</strong> maryjones@test.com <br />
+                                        <p><strong>Email:</strong> maryjones@test.com <br />
                                         <strong>Password:</strong> mypassword123</p>
+
+                                        {/* <p><strong>First Name:</strong> Mary <br />
+                                        <strong>Last Name:</strong> Jones <br />
+                                        <strong>Employee Number:</strong> 024 <br /></p> */}
 
                                         <h5>Links</h5>
 

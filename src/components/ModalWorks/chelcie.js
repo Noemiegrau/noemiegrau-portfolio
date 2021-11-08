@@ -81,8 +81,8 @@ const WorksChelcieFans = () => {
 
                                         <p>Create an account to try the application or use this sample account to log in:</p>
 
-                                        <p><strong>Username:</strong> Mary <br />
-                                        <strong>Email:</strong> maryjones@test.com <br />
+                                        {/* <p><strong>Username:</strong> Mary <br /> */}
+                                        <p><strong>Email:</strong> maryjones@test.com <br />
                                         <strong>Password:</strong> mypassword123</p>
 
                                         <h5>Links</h5>
