@@ -110,11 +110,11 @@ const Contacts = () => {
                             </div>
                         </div>
 
-                        {/* <div className="block spacer p-top-xl">
+                        <div className="block spacer p-top-xl">
                             <h3>Or fill up the <span className="line">form</span></h3>
 
                             <ContactForm />
-                        </div> */}
+                        </div>
                     </div>
                 </section>
             </main>

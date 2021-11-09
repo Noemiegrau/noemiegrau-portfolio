@@ -1,90 +1,279 @@
-import React, {useState} from 'react';
-// import React, { Component, } from 'react';
-import axios from 'axios';
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
+
+// import{ init } from 'emailjs-com';
+// init("user_D1p23wJ90DRw4ngDc5jnG");
+
+const ContactForm = () => {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_qhxrili', 'template_mxlm9nj', e.target, 'user_D1p23wJ90DRw4ngDc5jnG')
+      .then(res => {
+          console.log(res);
+      }).catch(err=> console.log(err));
+      e.target.reset()
+      }
+
+  return (
+    <form id="contact-form" className="wpcf7-form" onSubmit={sendEmail}>
+        <p className="input-group gutter-width-30">
+            <span className="gutter-width">
+                <input placeholder="Name *" 
+                    className="form-control" 
+                    size="30" 
+                    maxLength="245" 
+                    required="required"
+                    type="text" 
+                    name="name" />
+                </span>
+
+            <span className="gutter-width">
+                <input placeholder="Email *"
+                    type="email" 
+                    className="form-control"
+                    name="user_email" 
+                    required="required"
+                    size="30"
+                    maxLength="100"/>
+            </span>
+        </p>
+
+        <p>
+            <textarea placeholder="Subject *" 
+                type="text" 
+                name="subject"
+                className="form-control"
+                required="required"
+                maxLength="65525" 
+                cols="45"
+                rows="8"></textarea>
+        </p>
+
+        <p>
+
+        <textarea placeholder="Message *"
+                name="message"
+                cols="45"
+                rows="8"
+                className="form-control"
+                required="required"
+                maxLength="65525"></textarea>
+
+        </p>
+
+        <p>
+            <input type="submit" className="btn btn-dark border-0 transform-scale-h" value="Send" />
+        </p>
+
+    </form>
 
 
-class ContactForm extends React.Component {
-    constructor( props ) {
-        super(props);
-        this.state = {
-                name: '',
-                email: '',
-                subject: '',
-                message: ''
-            // successMessage: "Sender's message was sent successfully",
-            // warningMessage: 'Fill up the form, please!',
-            // errorMessage: 'Something go wrong. Try again later!',
-            // alertClass: '',
-            // responseMessage: '',
-            // alertTimeout: '',
-            // delay: 5000
-        };
-    }
 
-    // const [sent, setSent] = useState(false);
-    // const [text, setText] = useState("");
-
-    // const handleSend = async() => {}
-
-
-    render() {
-        return (
-            <form id="contact-form" onSubmit={this.submitEmail.bind(this)} method="POST" className="wpcf7-form">
-                <p className="input-group gutter-width-30">
-                    <span className="gutter-width">
-                        <input placeholder="Name *"
-                               id="name"
-                               type="text"
-                               className="form-control"
-                               required value={this.state.name}
-                               onChange={this.onNameChange.bind(this)}
-                               size="30"
-                               maxLength="245" />
-                    </span>
-
-                    <span className="gutter-width">
-                        <input placeholder="Email *"
-                               id="email"
-                               type="email"
-                               className="form-control" aria-describedby="emailHelp"
-                               required value={this.state.email}
-                               onChange={this.onEmailChange.bind(this)}
-                               size="30"
-                               maxLength="100" />
-                    </span>
-                </p>
-
-                <p>
-                    <textarea placeholder="Subject *"
-                              id="subject"
-                              type="text"
-                              className="form-control"
-                              required value={this.state.subject}
-                              onChange={this.onSubjectChange.bind(this)}
-                              maxLength="65525" 
-                              cols="45"
-                              rows="8"></textarea>
-                </p>
-                <p>
-                    <textarea placeholder="Message *"
-                              id="message"
-                              cols="45"
-                              rows="8"
-                              className="form-control"
-                              required value={this.state.message}
-                              onChange={this.onMsgChange.bind(this)}
-                              maxLength="65525"></textarea>
-                </p>
-
-                <p>
-                    <input name="submit" type="submit" className="btn btn-dark border-0 transform-scale-h" defaultValue="Send" />
-                </p>
-            </form>
-        );
-    }
-}
+  );
+};
 
 export default ContactForm;
+
+
+
+
+
+// import React from 'react';
+// import emailjs from 'emailjs-com';
+
+// export default function ContactForm() {
+
+//   function sendEmail(e) {
+//     e.preventDefault();
+
+//     emailjs.sendForm('gmail', 'template_bt89vwx', e.target, 'user_D1p23wJ90DRw4ngDc5jnG')
+//       .then((result) => {
+//           console.log(result.text);
+//       }, (error) => {
+//           console.log(error.text);
+//       });
+//               e.target.reset()
+//   }
+
+//   return(
+//     <div>
+//         <div className="container">
+//         <form onSubmit={sendEmail}>
+//                 <div className="row pt-5 mx-auto">
+//                     <div className="col-8 form-group mx-auto">
+//                         <input type="text" className="form-control" placeholder="Name" name="name"/>
+//                     </div>
+//                     <div className="col-8 form-group pt-2 mx-auto">
+//                         <input type="email" className="form-control" placeholder="Email Address" name="email"/>
+//                     </div>
+//                     <div className="col-8 form-group pt-2 mx-auto">
+//                         <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+//                     </div>
+//                     <div className="col-8 form-group pt-2 mx-auto">
+//                         <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+//                     </div>
+//                     <div className="col-8 pt-3 mx-auto">
+//                         <input type="submit" className="btn btn-info" value="Send Message"></input>
+//                     </div>
+//                 </div>
+//             </form>
+//         </div>
+//     </div>
+// )
+// }
+
+
+
+
+
+
+
+// import emailjs from "emailjs-com";
+// import React from 'react';
+
+// export default function ContactForm() {
+
+//     function sendEmail(e) {
+//         e.preventDefault();
+
+//     emailjs.sendForm('gmail', 'youtube_template', e.target, 'user_JABO21I8Gm6sxByJH17Nu')
+//         .then((result) => {
+//             console.log(result.text);
+//         }, (error) => {
+//             console.log(error.text);
+//         });
+//         e.target.reset()
+//     }
+
+//     return(
+//         <div>
+//             <div className="container">
+//             <form onSubmit={sendEmail}>
+//                     <div className="row pt-5 mx-auto">
+//                         <div className="col-8 form-group mx-auto">
+//                             <input type="text" className="form-control" placeholder="Name" name="name"/>
+//                         </div>
+//                         <div className="col-8 form-group pt-2 mx-auto">
+//                             <input type="email" className="form-control" placeholder="Email Address" name="email"/>
+//                         </div>
+//                         <div className="col-8 form-group pt-2 mx-auto">
+//                             <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+//                         </div>
+//                         <div className="col-8 form-group pt-2 mx-auto">
+//                             <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+//                         </div>
+//                         <div className="col-8 pt-3 mx-auto">
+//                             <input type="submit" className="btn btn-info" value="Send Message"></input>
+//                         </div>
+//                     </div>
+//                 </form>
+//             </div>
+//         </div>
+//     )
+// }
+
+
+
+
+
+
+
+
+
+// import React, {useState} from 'react';
+// import React, { Component, } from 'react';
+// import axios from 'axios';
+
+
+
+
+
+
+
+// class ContactForm extends React.Component {
+//     constructor( props ) {
+//         super(props);
+//         this.state = {
+//                 name: '',
+//                 email: '',
+//                 subject: '',
+//                 message: ''
+//             // successMessage: "Sender's message was sent successfully",
+//             // warningMessage: 'Fill up the form, please!',
+//             // errorMessage: 'Something go wrong. Try again later!',
+//             // alertClass: '',
+//             // responseMessage: '',
+//             // alertTimeout: '',
+//             // delay: 5000
+//         };
+//     }
+
+//     // const [sent, setSent] = useState(false);
+//     // const [text, setText] = useState("");
+
+//     // const handleSend = async() => {}
+
+
+//     render() {
+//         return (
+//             <form id="contact-form" onSubmit={this.submitEmail.bind(this)} method="POST" className="wpcf7-form">
+//                 <p className="input-group gutter-width-30">
+//                     <span className="gutter-width">
+//                         <input placeholder="Name *"
+//                                id="name"
+//                                type="text"
+//                                className="form-control"
+//                                required value={this.state.name}
+//                                onChange={this.onNameChange.bind(this)}
+//                                size="30"
+//                                maxLength="245" />
+//                     </span>
+
+//                     <span className="gutter-width">
+//                         <input placeholder="Email *"
+//                                id="email"
+//                                type="email"
+//                                className="form-control" aria-describedby="emailHelp"
+//                                required value={this.state.email}
+//                                onChange={this.onEmailChange.bind(this)}
+//                                size="30"
+//                                maxLength="100" />
+//                     </span>
+//                 </p>
+
+//                 <p>
+//                     <textarea placeholder="Subject *"
+//                               id="subject"
+//                               type="text"
+//                               className="form-control"
+//                               required value={this.state.subject}
+//                               onChange={this.onSubjectChange.bind(this)}
+//                               maxLength="65525" 
+//                               cols="45"
+//                               rows="8"></textarea>
+//                 </p>
+//                 <p>
+//                     <textarea placeholder="Message *"
+//                               id="message"
+//                               cols="45"
+//                               rows="8"
+//                               className="form-control"
+//                               required value={this.state.message}
+//                               onChange={this.onMsgChange.bind(this)}
+//                               maxLength="65525"></textarea>
+//                 </p>
+
+//                 <p>
+//                     <input name="submit" type="submit" className="btn btn-dark border-0 transform-scale-h" defaultValue="Send" />
+//                 </p>
+//             </form>
+//         );
+//     }
+// }
+
+// export default ContactForm;
 
 
 
