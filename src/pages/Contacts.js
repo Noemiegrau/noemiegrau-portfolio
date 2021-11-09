@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import MetaTags from 'react-meta-tags';
+import axios from 'axios';
 
 // import Loading from '../blocks/loading/Loading';
 // import Header from '../blocks/header/Header';
@@ -12,6 +13,21 @@ const Contacts = () => {
     document.body.classList.add( 'page' );
     document.body.classList.add( 'bg-fixed' );
     document.body.classList.add( 'bg-line' );
+
+    const [sent, setSent] = useState(false);
+    const [text, setText] = useState("");
+
+    const handleSend = async() => {
+        setSent(true)
+        try {
+            await axios.post("http://localhost:3000/send_mail", {
+            text
+            })
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
 
     return (
         <Fragment>
@@ -94,11 +110,11 @@ const Contacts = () => {
                             </div>
                         </div>
 
-                        <div className="block spacer p-top-xl">
+                        {/* <div className="block spacer p-top-xl">
                             <h3>Or fill up the <span className="line">form</span></h3>
 
                             <ContactForm />
-                        </div>
+                        </div> */}
                     </div>
                 </section>
             </main>
