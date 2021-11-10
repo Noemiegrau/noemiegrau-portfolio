@@ -15,6 +15,9 @@ const Nav = () => {
 
 }
 
+/////////********** EXAMPLE OF ANOTHER CODE VERSION FOR THIS PAGE **********/////////
+
+
     // render() {
     //     return (
     //             <div className="align-self-center animated fadeinright w-100">

@@ -1,8 +1,5 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import emailjs from 'emailjs-com';
-
-// import{ init } from 'emailjs-com';
-// init("user_D1p23wJ90DRw4ngDc5jnG");
 
 const ContactForm = () => {
 
@@ -78,6 +75,7 @@ export default ContactForm;
 
 
 
+/////////********** EXAMPLE OF OTHER CODE VERSION FOR THIS PAGE **********/////////
 
 
 // import React from 'react';

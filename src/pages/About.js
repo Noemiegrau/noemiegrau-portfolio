@@ -5,11 +5,6 @@ import PageTitleAbout from '../blocks/page-title/PageTitleAbout';
 import AboutContent from '../blocks/about/AboutContent';
 import Awards from '../blocks/about/Awards';
 
-// import Loading from '../blocks/loading/Loading';
-// import Header from '../blocks/header/Header';
-// import Footer from '../blocks/footer/Footer';
-// import MyExperience from '../blocks/about/MyExperience';
-
 const About = () => {
     document.body.classList.add( 'page' );
     document.body.classList.add( 'bg-fixed' );
@@ -31,19 +26,12 @@ const About = () => {
                 <meta name="format-detection" content="telephone=no" />
             </MetaTags>
 
-            {/* <Loading /> */}
-
-            {/* <Header /> */}
-
             <main id="main" className="site-main">
                 <PageTitleAbout />
 
                 <section id="page-content" className="spacer p-top-xl">
                     <div className="wrapper">
                         <AboutContent />
-
-                        {/* <MyExperience /> */}
-
                         <Awards />
                     </div>
                 </section>

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Modal } from 'react-bootstrap';
 import FooterMenu from '../../blocks/footer/FooterMenu';
 
-// import { Link } from 'react-scroll';
 import Scroll from 'react-scroll';
 const ScrollLink = Scroll.ScrollLink;
 

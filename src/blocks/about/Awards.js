@@ -1,8 +1,4 @@
 import React from 'react';
-// import AwardItemsData from '../../data/awards/awards';
-
-// import html from '';
-
 
 const Awards = () => {
     return (
@@ -11,19 +7,10 @@ const Awards = () => {
                 <span className="line">My skills</span>
             </h2>
 
-<p>Here are some of the technologies I have been working with:</p>
+<p>Some of the technologies I have been working with:</p>
 
 
             <div className="row gutter-width-lg with-pb-lg">
-                        {/* <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12"> */}
-                            {/* <div className="card">
-                                <div className="card-body p-large"> */}
-
-
-
-
-
-
                                 <div className="m-4"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="60px" height="60px"><path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"/><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"/></svg>
                                     <h5>
                                     </h5>
@@ -69,17 +56,6 @@ const Awards = () => {
                                     </h5>
                                     <h5>Git</h5>
                                 </div>
-
-
-
-
-
-
-
-
-                                {/* </div>
-                            </div> */}
-                        {/* </div> */}
             </div>
         </div>
     );
@@ -93,6 +69,7 @@ export default Awards;
 
 
 
+/////////********** EXAMPLE OF ANOTHER CODE VERSION FOR THIS PAGE **********/////////
 
 
 // import React from 'react';

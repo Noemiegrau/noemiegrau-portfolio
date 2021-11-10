@@ -1,10 +1,6 @@
 import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
 
-// import Loading from '../blocks/loading/Loading';
-// import HeaderWork from '../blocks/header-work/HeaderWork';
-// import Footer from '../blocks/footer/Footer';
-
 const WorksTaskMasterPro = () => {
     document.body.classList.add( 'single' );
     document.body.classList.add( 'single-portfolio' );
@@ -25,10 +21,6 @@ const WorksTaskMasterPro = () => {
                 <meta name="google" content="notranslate" />
                 <meta name="format-detection" content="telephone=no" />
             </MetaTags>
-
-            {/* <Loading />
-
-            <HeaderWork /> */}
 
             <main id="main" className="site-main bg-half-ring-right bg-half-ring-top">
                 <section id="page-content">
@@ -102,8 +94,6 @@ const WorksTaskMasterPro = () => {
                     </div>
                 </section>
             </main>
-
-            {/* <Footer /> */}
         </Fragment>
     );
 };

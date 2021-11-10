@@ -14,7 +14,7 @@ import Contacts from '../blocks/contacts/Contacts';
 import About from './About';
 import ContactsPage from './Contacts';
 
-import CustomCursor from '../components/CustomCursor';
+// import CustomCursor from '../components/CustomCursor';
 
 const Home = () => {
     document.body.classList.add( 'home' );

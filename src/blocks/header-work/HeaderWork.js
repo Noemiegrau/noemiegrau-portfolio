@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from '../../blocks/logo/Logo';
-// import Nav from '../../nav/Nav';
 import '../../nav/Nav.css';
 
 const HeaderWork = () => {

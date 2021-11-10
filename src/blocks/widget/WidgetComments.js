@@ -7,27 +7,27 @@ const WidgetComments = () => {
 
             <ul id="recentcomments">
                 <li className="recentcomments">
-                    <span className="comment-author-link">Lucas Reynolds</span> on
+                    <span className="comment-author-link">Noemie Grau</span> on
                     <a title="Jellyfish season" href={ process.env.PUBLIC_URL + "/journal-single-post#comments" }> Jellyfish season</a>
                 </li>
 
                 <li className="recentcomments">
-                    <span className="comment-author-link">Lucas Reynolds</span> on
+                    <span className="comment-author-link">Noemie Grau</span> on
                     <a title="Hacking industry" href={ process.env.PUBLIC_URL + "/journal-single-post#comments" }> Hacking industry</a>
                 </li>
 
                 <li className="recentcomments">
-                    <span className="comment-author-link">Lucas Reynolds</span> on
+                    <span className="comment-author-link">Noemie Grau</span> on
                     <a title="The Voyage of the Eye" href={ process.env.PUBLIC_URL + "/journal-single-post#comments" }> The Voyage of the Eye</a>
                 </li>
 
                 <li className="recentcomments">
-                    <span className="comment-author-link">Lucas Reynolds</span> on
+                    <span className="comment-author-link">Noemie Grau</span> on
                     <a title="Wind of Names" href={ process.env.PUBLIC_URL + "/journal-single-post#comments" }> Wind of Names</a>
                 </li>
 
                 <li className="recentcomments">
-                    <span className="comment-author-link">Lucas Reynolds</span> on
+                    <span className="comment-author-link">Noemie Grau</span> on
                     <a title="The Twinkling Year" href={ process.env.PUBLIC_URL + "/journal-single-post#comments" }> The Twinkling Year</a>
                 </li>
             </ul>

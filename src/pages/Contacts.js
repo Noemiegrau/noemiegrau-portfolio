@@ -1,10 +1,5 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment } from 'react';
 import MetaTags from 'react-meta-tags';
-import axios from 'axios';
-
-// import Loading from '../blocks/loading/Loading';
-// import Header from '../blocks/header/Header';
-// import Footer from '../blocks/footer/Footer';
 
 import PageTitleContacts from '../blocks/page-title/PageTitleContacts';
 import ContactForm from '../components/form/ContactForm';
@@ -13,21 +8,6 @@ const Contacts = () => {
     document.body.classList.add( 'page' );
     document.body.classList.add( 'bg-fixed' );
     document.body.classList.add( 'bg-line' );
-
-    const [sent, setSent] = useState(false);
-    const [text, setText] = useState("");
-
-    const handleSend = async() => {
-        setSent(true)
-        try {
-            await axios.post("http://localhost:3000/send_mail", {
-            text
-            })
-        } catch (error) {
-            console.log(error)
-        }
-    }
-
 
     return (
         <Fragment>
@@ -44,10 +24,6 @@ const Contacts = () => {
                 <meta name="google" content="notranslate" />
                 <meta name="format-detection" content="telephone=no" />
             </MetaTags>
-
-            {/* <Loading /> */}
-
-            {/* <Header/> */}
 
             <main id="main" className="site-main">
                 <PageTitleContacts />
@@ -119,7 +95,6 @@ const Contacts = () => {
                 </section>
             </main>
 
-            {/* <Footer /> */}
         </Fragment>
     );
 };

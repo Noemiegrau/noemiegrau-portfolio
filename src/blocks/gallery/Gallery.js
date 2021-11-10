@@ -41,17 +41,6 @@ class Gallery extends Component {
         });
     }
 
-
-    // state = {
-    //     show: false
-    //   };
-    //   showModal = e => {
-    //     this.setState({
-    //       show: !this.state.show
-    //     });
-    //   };
-    
-
     handleClick( i, e ) {
         e.preventDefault();
 
@@ -154,7 +143,6 @@ class Gallery extends Component {
                                             
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more  */}
                                                 <ModalChelcie />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -176,7 +164,6 @@ class Gallery extends Component {
                                             <h3>Run Buddy</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more */}
                                                 <ModalRunBuddy />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -197,7 +184,6 @@ class Gallery extends Component {
                                             <h3>Food Forward</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more */}
                                                 <ModalFoodForward />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -218,7 +204,6 @@ class Gallery extends Component {
                                             <h3>Pawpals</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more */}
                                                 <ModalPawpals />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -239,7 +224,6 @@ class Gallery extends Component {
                                             <h3>Password Generator</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more */}
                                                 <ModalPasswordGenerator />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -260,7 +244,6 @@ class Gallery extends Component {
                                             <h3>Coding Quiz</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more */}
                                                 <ModalCodingQuiz />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -281,7 +264,6 @@ class Gallery extends Component {
                                             <h3>Shop Shop</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more */}
                                                 <ModalShopShop />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -302,7 +284,6 @@ class Gallery extends Component {
                                             <h3>Book Search Engine</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more */}
                                                 <ModalBookSearchEngine />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -323,7 +304,6 @@ class Gallery extends Component {
                                             <h3>Taskmaster Pro</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more */}
                                                 <ModalTaskMasterPro />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -344,7 +324,6 @@ class Gallery extends Component {
                                             <h3>Taskmaster Pro</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more */}
                                                 <ModalTaskMasterPro />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -365,7 +344,6 @@ class Gallery extends Component {
                                             <h3>Weather Dashboard</h3>
 
                                             <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                {/* Learn more */}
                                                 <ModalWeatherDashboard />
                                                 <i className="icon-c icon-arrow-right" />
                                             </span>
@@ -375,36 +353,6 @@ class Gallery extends Component {
 
                     </div>
                 </div>
-
-
-
-                {/* <div className={"gallery-item-wrapper" + this.props.paddingBottomClass} >
-                    <div className="gallery-items" ref={ ( c ) => this.grid = c }>
-                        { GalleryItemsData && GalleryItemsData.map( ( item, key ) => {
-                            return (
-                                <div key={ key } title={ item.title } className={ "gallery-item active " + item.category } href={ process.env.PUBLIC_URL + item.link }>
-                                    <div className="img object-fit">
-                                        <div className="object-fit-cover">
-                                        <img src={item.imgLink} alt={item.alt} />
-                                        </div>
-                                    </div>
-
-                                    <div className="gallery-hover">
-                                        <div className="gallery-hover-wrapper">
-                                            <h3>{ item.title }</h3>
-
-                                            <span className="btn btn-link border-0 transform-scale-h p-0">
-                                                { item.button }
-                                                <i className="icon-c icon-arrow-right" />
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            );
-                        } ) }
-                    </div>
-                </div> */}
-
 
 {/* { this.props.seeMore ? */}
     <div className="text-center no-space">
@@ -424,6 +372,9 @@ Gallery.propTypes = {
 };
 
 export default Gallery;
+
+
+/////////********** EXAMPLE OF ANOTHER CODE VERSION FOR THIS PAGE **********/////////
 
 
 //  <div className="gallery">
@@ -461,7 +412,7 @@ export default Gallery;
 //                 <a key={ key } title={ item.title } className={ "gallery-item active " + item.category } href={ process.env.PUBLIC_URL + item.link }>
 //                     <div className="img object-fit">
 //                         <div className="object-fit-cover">
-//                         <img src={require("./img/chelciefans.png")} alt="test" />
+//                         <img src={item.imgLink} alt={item.alt} />
 //                         </div>
 //                     </div>
 
@@ -480,3 +431,4 @@ export default Gallery;
 //         } ) }
 //     </div>
 // </div>
+

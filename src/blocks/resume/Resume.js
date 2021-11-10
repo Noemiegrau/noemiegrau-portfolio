@@ -1,5 +1,4 @@
 import React from "react";
-// import React, {useState} from "react";
 import './resume.css';
 
 const Resume = () => {
