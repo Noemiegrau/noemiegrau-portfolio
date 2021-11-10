@@ -4,15 +4,17 @@ import Nav from '../../nav/Nav';
 import '../../nav/Nav.css';
 
 const Header = () => {
+
+    function refreshPage() {
+        window.location.reload(false);
+      }
+
+
     return (
         <header id="header" className="site-header justify-content-end">
             <div id="wrapperHeader" className="wrapper d-flex">
                 <div className="align-self-center">
-                    {/* <Logo image={ "/assets/img/logo/logo.svg" } /> */}
-                    <a href="/"><img
-                    src="/assets/img/logo/logo.svg"
-                    alt="Logo"
-                    className="logo primary-logo transform-scale-h" /></a>
+                <button id="btn-logo" onClick={refreshPage}><Logo image={ "/assets/img/logo/logo.svg" } /></button>
                 </div>
 
                 <div className="justify-content-end ml-auto">

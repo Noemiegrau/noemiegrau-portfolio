@@ -86,6 +86,14 @@ nav span.activeClass {
     padding: 4px;
 }
 
+	/****** LOGO BUTTON ******/
+
+#btn-logo {
+    background: transparent;
+    border: none !important;
+}
+
+
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
