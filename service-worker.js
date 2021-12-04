@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/noemiegrau-portfolio/precache-manifest.4e20cb2ca0009b6f281aa7053de39a89.js"
+  "/noemiegrau-portfolio/precache-manifest.2eba7fc4c681dc7580378f29c0646aa1.js"
 );
 
 self.addEventListener('message', (event) => {
