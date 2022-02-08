@@ -23,7 +23,8 @@ Project is created using:
 
 ## **_Usage_**
 
-------------->>>>>>>>> Put image here!
+![Screen Shot 2022-02-07 at 4 17 55 PM](https://user-images.githubusercontent.com/78329298/152894096-36f1a938-5d20-4f9f-8d00-f3301edc1102.png)
+
 
 ## **_Installation_**
 Here are some guidelines for installing the project on your local machine in order to be able to try it: 
